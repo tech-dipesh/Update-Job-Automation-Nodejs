@@ -1,0 +1,6322 @@
+{
+"meta": {
+    "title": "India Tech Companies — Career & Glassdoor Pages",
+    "description": "300+ companies hiring tech roles (SDE / Intern / Full Stack / Frontend / Backend) with India offices",
+    "last_updated": "May 2026",
+    "total_companies": 366,
+    "categories": [
+      "Indian Product Startup",
+      "Foreign MNC",
+      "Fintech & Banking",
+      "Consulting"
+    ],
+    "crawl_keywords": [
+      "intern",
+      "internship",
+      "software engineer",
+      "SDE",
+      "SWE",
+      "full stack",
+      "fullstack",
+      "frontend",
+      "front-end",
+      "backend",
+      "back-end",
+      "software development engineer",
+      "junior engineer",
+      "associate engineer",
+      "new grad"
+    ]
+  },
+  "companies": [
+    {
+      "name": "Flipkart",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://www.flipkartcareers.com/#!/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Flipkart-Reviews-E496704.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Meesho",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://meesho.io/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Meesho-Reviews-E1700514.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Myntra",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://www.myntra.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Myntra-Reviews-E536736.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Nykaa",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://careers.nykaa.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Nykaa-Reviews-E878712.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Purplle",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://www.purplle.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Purplle-Reviews-E1679283.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Lenskart",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://ainterviews.com/job_board/lenskart_ho/#open-positions",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Lenskart-Reviews-E728959.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Mamaearth",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://mamaearth.in/pages/career",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Honasa-Consumer-Reviews-E3378461.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Bewakoof",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://www.bewakoof.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bewakoof-Reviews-E1247406.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "BigBasket",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce",
+      "careers_url": "https://www.bigbasket.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/BigBasket-Reviews-E783173.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Swiggy",
+      "category": "Indian Product Startup",
+      "sub_category": "Food Tech",
+      "careers_url": "https://careers.swiggy.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Swiggy-Reviews-E1340127.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zomato",
+      "category": "Indian Product Startup",
+      "sub_category": "Food Tech",
+      "careers_url": "https://www.zomato.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zomato-Reviews-E662980.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Licious",
+      "category": "Indian Product Startup",
+      "sub_category": "Food Tech",
+      "careers_url": "https://www.licious.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Licious-Reviews-E2206001.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Country Delight",
+      "category": "Indian Product Startup",
+      "sub_category": "Food Tech",
+      "careers_url": "https://www.countrydelight.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Country-Delight-Reviews-E3232186.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "EatClub (Box8)",
+      "category": "Indian Product Startup",
+      "sub_category": "Food Tech",
+      "careers_url": "https://www.eatclub.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Box8-Reviews-E1076124.htm",
+      "cities": [
+        "Bangalore",
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Zepto",
+      "category": "Indian Product Startup",
+      "sub_category": "Q-Commerce",
+      "careers_url": "https://www.zeptonow.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zepto-Reviews-E8076285.htm",
+      "cities": [
+        "Mumbai",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Blinkit",
+      "category": "Indian Product Startup",
+      "sub_category": "Q-Commerce",
+      "careers_url": "https://blinkit.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Blinkit-Reviews-E3537882.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Ola",
+      "category": "Indian Product Startup",
+      "sub_category": "Mobility",
+      "careers_url": "https://www.olacabs.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ola-Cabs-Reviews-E691485.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Rapido",
+      "category": "Indian Product Startup",
+      "sub_category": "Mobility",
+      "careers_url": "https://rapido.bike/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Rapido-Reviews-E2457501.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "BluSmart",
+      "category": "Indian Product Startup",
+      "sub_category": "Mobility",
+      "careers_url": "https://www.blusmart.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/BluSmart-Reviews-E3671988.htm",
+      "cities": [
+        "Gurgaon",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Yulu",
+      "category": "Indian Product Startup",
+      "sub_category": "Mobility",
+      "careers_url": "https://careers.yulu.bike",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Yulu-Reviews-E2753440.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Ola Electric",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Tech",
+      "careers_url": "https://olaelectric.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ola-Electric-Reviews-E3597543.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Ather Energy",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Tech",
+      "careers_url": "https://www.atherenergy.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ather-Energy-Reviews-E1803208.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Euler Motors",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Tech",
+      "careers_url": "https://www.eulermotors.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Euler-Motors-Reviews-E4418703.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Simple Energy",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Tech",
+      "careers_url": "https://simpleenergy.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Simple-Energy-Reviews-E5058799.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Revolt Motors",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Tech",
+      "careers_url": "https://www.revoltmotors.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Revolt-Motors-Reviews-E3691148.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Postman",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://www.postman.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Postman-Reviews-E1345553.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Hasura",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://hasura.io/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Hasura-Reviews-E2439895.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "BrowserStack",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://www.browserstack.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/BrowserStack-Reviews-E817008.htm",
+      "cities": [
+        "Mumbai",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "LambdaTest",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://www.lambdatest.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/LambdaTest-Reviews-E2205700.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Appsmith",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://www.appsmith.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Appsmith-Reviews-E4537348.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Tooljet",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://www.tooljet.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ToolJet-Reviews-E7577087.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Requestly",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://wellfound.com/company/requestlyio/jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Requestly-Reviews-E9202485.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Middleware",
+      "category": "Indian Product Startup",
+      "sub_category": "DevTools",
+      "careers_url": "https://www.middlewarehq.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Middleware-Reviews-E9810421.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zoho",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.zoho.com/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zoho-Reviews-E36133.htm",
+      "cities": [
+        "Chennai",
+        "Hyderabad",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Freshworks",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.freshworks.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Freshworks-Reviews-E710381.htm",
+      "cities": [
+        "Chennai",
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Chargebee",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.chargebee.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Chargebee-Reviews-E1049161.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Sprinklr",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.sprinklr.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Sprinklr-Reviews-E551613.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "LeadSquared",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.leadsquared.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/LeadSquared-Reviews-E784697.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zenoti",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.zenoti.com/about-us/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zenoti-Reviews-E1474940.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Capillary Technologies",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://capillarytech.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Capillary-Technologies-Reviews-E453064.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Exotel",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://exotel.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Exotel-Reviews-E738213.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Ozonetel",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://ozonetel.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ozonetel-Reviews-E1162791.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Helpshift",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.helpshift.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Helpshift-Reviews-E791524.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Manthan",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS",
+      "careers_url": "https://www.manthan.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Manthan-Reviews-E471023.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "InMobi",
+      "category": "Indian Product Startup",
+      "sub_category": "AdTech",
+      "careers_url": "https://www.inmobi.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/InMobi-Reviews-E290114.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "CleverTap",
+      "category": "Indian Product Startup",
+      "sub_category": "MarTech",
+      "careers_url": "https://clevertap.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CleverTap-Reviews-E1372459.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "MoEngage",
+      "category": "Indian Product Startup",
+      "sub_category": "MarTech",
+      "careers_url": "https://www.moengage.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/MoEngage-Reviews-E1424059.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "WebEngage",
+      "category": "Indian Product Startup",
+      "sub_category": "MarTech",
+      "careers_url": "https://webengage.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/WebEngage-Reviews-E828834.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Netcore Cloud",
+      "category": "Indian Product Startup",
+      "sub_category": "MarTech",
+      "careers_url": "https://netcorecloud.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Netcore-Cloud-Reviews-E4152889.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Darwinbox",
+      "category": "Indian Product Startup",
+      "sub_category": "HRTech",
+      "careers_url": "https://perfios.darwinbox.in/ms/candidatev2/main/careers/allJobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Darwinbox-Reviews-E2065696.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Springworks",
+      "category": "Indian Product Startup",
+      "sub_category": "HRTech",
+      "careers_url": "https://www.springworks.in/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Springworks-Reviews-E4020226.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Roku Jobs",
+      "category": "Indian Product Startup",
+      "sub_category": "RokuJobs",
+      "careers_url": "https://www.weareroku.com/jobs/search?page=1&country_codes%5B%5D=IN&query=intern",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Keka-Reviews-E2090042.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "greytHR",
+      "category": "Indian Product Startup",
+      "sub_category": "HRTech",
+      "careers_url": "https://www.greythr.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Greytip-Software-Reviews-E510696.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Akrivia HCM",
+      "category": "Indian Product Startup",
+      "sub_category": "HRTech",
+      "careers_url": "https://akrivia.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Akrivia-HCM-Reviews-E4847232.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Hirect",
+      "category": "Indian Product Startup",
+      "sub_category": "HRTech",
+      "careers_url": "https://hirect.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Hirect-Reviews-E4917006.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Unacademy",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://unacademy.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Unacademy-Reviews-E2020281.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "BYJUS",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://byjus.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/BYJU-s-Reviews-E1595262.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Vedantu",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.vedantu.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Vedantu-Reviews-E1666126.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "upGrad",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://careers.upgrad.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/upGrad-Reviews-E1780261.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Physics Wallah",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.pw.live/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Physics-Wallah-Reviews-E4716756.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Scaler Academy",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.scaler.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/InterviewBit-Reviews-E1026048.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Classplus",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://classplusapp.com/careers/open-role",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Classplus-Reviews-E3097834.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Testbook",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://testbook.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Testbook-Reviews-E1862777.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Doubtnut",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://doubtnut.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Doubtnut-Reviews-E2624440.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Skill-Lync",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://skill-lync.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Skill-Lync-Reviews-E3528547.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "iNeuron",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://ineuron.ai/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/iNeuron-AI-Reviews-E5197310.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Practo",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://practo.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Practo-Reviews-E659209.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "HealthifyMe",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.healthifyme.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/HealthifyMe-Reviews-E1168059.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "1mg (Tata Health)",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.1mg.com/aboutUs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/1mg-Reviews-E1013530.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "PharmEasy",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://pharmeasy.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/PharmEasy-Reviews-E2052820.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Pristyn Care",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.pristyncare.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Pristyn-Care-Reviews-E3477609.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Cure.fit",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.cure.fit/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cure-fit-Reviews-E1898400.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Innovaccer",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://innovaccer.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Innovaccer-Reviews-E1697430.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Niramai",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://niramai.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Niramai-Health-Analytix-Reviews-E2215702.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Mfine",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.mfine.co/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/mfine-Reviews-E2186513.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Medikabazaar",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.medikabazaar.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Medikabazaar-Reviews-E2648108.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "ShareChat",
+      "category": "Indian Product Startup",
+      "sub_category": "Social Media",
+      "careers_url": "https://sharechat.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ShareChat-Reviews-E1761227.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Josh (DailyHunt)",
+      "category": "Indian Product Startup",
+      "sub_category": "Social Media",
+      "careers_url": "https://versein.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/DailyHunt-Reviews-E744266.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Koo",
+      "category": "Indian Product Startup",
+      "sub_category": "Social Media",
+      "careers_url": "https://www.kooapp.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Koo-App-Reviews-E4338523.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Dream11",
+      "category": "Indian Product Startup",
+      "sub_category": "Gaming",
+      "careers_url": "https://dream11.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Dream11-Reviews-E1061234.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "MPL (Mobile Premier League)",
+      "category": "Indian Product Startup",
+      "sub_category": "Gaming",
+      "careers_url": "https://www.mpl.live/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Mobile-Premier-League-Reviews-E3315892.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Games24x7",
+      "category": "Indian Product Startup",
+      "sub_category": "Gaming",
+      "careers_url": "https://games24x7.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Games24x7-Reviews-E1461501.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Nazara Technologies",
+      "category": "Indian Product Startup",
+      "sub_category": "Gaming",
+      "careers_url": "https://nazara.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Nazara-Technologies-Reviews-E1006073.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "WinZO",
+      "category": "Indian Product Startup",
+      "sub_category": "Gaming",
+      "careers_url": "https://consider.com/boards/vc/griffin-gaming/jobs/winzo?locations=India",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/WinZO-Games-Reviews-E3671947.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Gamezop",
+      "category": "Indian Product Startup",
+      "sub_category": "Gaming",
+      "careers_url": "https://gamezop.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Gamezop-Reviews-E2879440.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "MakeMyTrip",
+      "category": "Indian Product Startup",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://careers.makemytrip.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/MakeMyTrip-Reviews-E231856.htm",
+      "cities": [
+        "Gurgaon",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "ixigo",
+      "category": "Indian Product Startup",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://www.ixigo.com/info/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ixigo-Reviews-E1057398.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Cleartrip",
+      "category": "Indian Product Startup",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://careers.cleartrip.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cleartrip-Reviews-E359734.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Delhivery",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://www.delhivery.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Delhivery-Reviews-E1114836.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Shiprocket",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://www.shiprocket.in/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Shiprocket-Reviews-E2082918.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "ElasticRun",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://elasticruncareers.peoplestrong.com/job/joblist",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ElasticRun-Reviews-E2651453.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Porter",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://porter.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Porter-Reviews-E1879012.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Shadowfax",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://shadowfax.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Shadowfax-Reviews-E2163640.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "WareIQ",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://wareiq.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/WareIQ-Reviews-E5238469.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Cars24",
+      "category": "Indian Product Startup",
+      "sub_category": "Auto Tech",
+      "careers_url": "https://www.cars24.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CARS24-Reviews-E1943068.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Spinny",
+      "category": "Indian Product Startup",
+      "sub_category": "Auto Tech",
+      "careers_url": "https://www.spinny.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Spinny-Reviews-E3476889.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Droom",
+      "category": "Indian Product Startup",
+      "sub_category": "Auto Tech",
+      "careers_url": "https://droom.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Droom-Reviews-E1104524.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Zetwerk",
+      "category": "Indian Product Startup",
+      "sub_category": "Manufacturing Tech",
+      "careers_url": "https://www.zetwerk.com/about/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zetwerk-Reviews-E3278441.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Udaan",
+      "category": "Indian Product Startup",
+      "sub_category": "B2B Commerce",
+      "careers_url": "https://udaan.com/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Udaan-Reviews-E1820736.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Moglix",
+      "category": "Indian Product Startup",
+      "sub_category": "B2B Commerce",
+      "careers_url": "https://www.moglix.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Moglix-Reviews-E1649498.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Bizongo",
+      "category": "Indian Product Startup",
+      "sub_category": "B2B Packaging",
+      "careers_url": "https://bizongo.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bizongo-Reviews-E2024960.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "NoBroker",
+      "category": "Indian Product Startup",
+      "sub_category": "PropTech",
+      "careers_url": "https://www.nobroker.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/NoBroker-Reviews-E1565897.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Housing.com",
+      "category": "Indian Product Startup",
+      "sub_category": "PropTech",
+      "careers_url": "https://www.housing.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Housing-com-Reviews-E701219.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Stanza Living",
+      "category": "Indian Product Startup",
+      "sub_category": "PropTech",
+      "careers_url": "https://www.stanzaliving.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Stanza-Living-Reviews-E2919879.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Square Yards",
+      "category": "Indian Product Startup",
+      "sub_category": "PropTech",
+      "careers_url": "https://www.squareyards.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Square-Yards-Reviews-E1110183.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Homebazaar",
+      "category": "Indian Product Startup",
+      "sub_category": "PropTech",
+      "careers_url": "https://www.homebazaar.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Homebazaar-Reviews-E3889244.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "PolicyBazaar",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://www.policybazaar.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Policybazaar-Reviews-E543139.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Acko",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://www.acko.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Acko-Reviews-E2117388.htm",
+      "cities": [
+        "Bangalore",
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Digit Insurance",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://www.godigit.com/about-us/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Go-Digit-General-Insurance-Reviews-E2467543.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Turtlemint",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://www.turtlemint.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Turtlemint-Reviews-E2278127.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Ninjacart",
+      "category": "Indian Product Startup",
+      "sub_category": "Agri Tech",
+      "careers_url": "https://ninjacart.in/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ninjacart-Reviews-E2271521.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "DeHaat",
+      "category": "Indian Product Startup",
+      "sub_category": "Agri Tech",
+      "careers_url": "https://www.agrevolution.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/DeHaat-Reviews-E3553428.htm",
+      "cities": [
+        "Patna",
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Skit",
+      "category": "Indian Product Startup",
+      "sub_category": "AI / Chatbot",
+      "careers_url": "https://skit.ai/careers#opportunities",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/WayCool-Reviews-E2428993.htm",
+      "cities": [
+      "Chennai"
+      ]
+      },
+{
+      "name": "Animall",
+      "category": "Indian Product Startup",
+      "sub_category": "Agri Tech",
+      "careers_url": "https://animall.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Animall-Reviews-E6063208.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Agnikul Cosmos",
+      "category": "Indian Product Startup",
+      "sub_category": "Space Tech",
+      "careers_url": "https://agnikul.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Agnikul-Cosmos-Reviews-E4393213.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Skyroot Aerospace",
+      "category": "Indian Product Startup",
+      "sub_category": "Space Tech",
+      "careers_url": "https://skyroot.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Skyroot-Aerospace-Reviews-E4410413.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Pixxel",
+      "category": "Indian Product Startup",
+      "sub_category": "Space Tech",
+      "careers_url": "https://www.pixxel.space/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Pixxel-Reviews-E4817286.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Sarvam AI",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://www.sarvam.ai/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Sarvam-AI-Reviews-E10037649.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Krutrim",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://www.krutrim.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Krutrim-Reviews-E10099837.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Mad Street Den (Vue.ai)",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://vue.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Mad-Street-Den-Reviews-E1234568.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "SigTuple",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://sigtuple.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/SigTuple-Technologies-Reviews-E1863977.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Wadhwani AI",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://wadhwaniai.org/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wadhwani-AI-Reviews-E4108083.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Wysa",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://www.wysa.io/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wysa-Reviews-E2879109.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Ideaforge",
+      "category": "Indian Product Startup",
+      "sub_category": "Drone Tech",
+      "careers_url": "https://app.webbtree.com/company/ideaforge/jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ideaForge-Technology-Reviews-E3226040.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Khatabook",
+      "category": "Indian Product Startup",
+      "sub_category": "SME Tech",
+      "careers_url": "https://khatabook.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Khatabook-Reviews-E3220148.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "OkCredit",
+      "category": "Indian Product Startup",
+      "sub_category": "SME Tech",
+      "careers_url": "https://okcredit.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/OkCredit-Reviews-E3269842.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Dukaan",
+      "category": "Indian Product Startup",
+      "sub_category": "SME Tech",
+      "careers_url": "https://mydukaan.io/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Dukaan-Reviews-E4289785.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Vyapar",
+      "category": "Indian Product Startup",
+      "sub_category": "SME Tech",
+      "careers_url": "https://vyaparapp.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Vyapar-Reviews-E3204487.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Google",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://careers.google.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Google-Reviews-E9079.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://careers.microsoft.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Microsoft-Reviews-E1651.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore",
+        "Noida"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://www.amazon.jobs/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Amazon-Reviews-E6036.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Meta",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://www.metacareers.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Meta-Reviews-E40772.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Apple",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://jobs.apple.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Apple-Reviews-E1138.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Adobe",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://careers.adobe.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Adobe-Reviews-E1090.htm",
+      "cities": [
+        "Noida",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Salesforce",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://careers.salesforce.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Salesforce-Reviews-E11159.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://careers.oracle.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Oracle-Reviews-E1737.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "SAP",
+      "category": "Foreign MNC",
+      "sub_category": "Enterprise Software",
+      "careers_url": "https://jobs.sap.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/SAP-Reviews-E10471.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "IBM",
+      "category": "Foreign MNC",
+      "sub_category": "Big Tech",
+      "careers_url": "https://www.ibm.com/employment/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/IBM-Reviews-E354.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Chennai",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Cisco",
+      "category": "Foreign MNC",
+      "sub_category": "Networking",
+      "careers_url": "https://jobs.cisco.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cisco-Reviews-E1425.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Intel",
+      "category": "Foreign MNC",
+      "sub_category": "Semiconductor",
+      "careers_url": "https://jobs.intel.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Intel-Reviews-E1519.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Qualcomm",
+      "category": "Foreign MNC",
+      "sub_category": "Semiconductor",
+      "careers_url": "https://careers.qualcomm.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Qualcomm-Reviews-E640.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "NVIDIA",
+      "category": "Foreign MNC",
+      "sub_category": "Semiconductor",
+      "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/NVIDIA-Reviews-E7633.htm",
+      "cities": [
+        "Pune",
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "AMD",
+      "category": "Foreign MNC",
+      "sub_category": "Semiconductor",
+      "careers_url": "https://careers.amd.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/AMD-Reviews-E9243.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Texas Instruments",
+      "category": "Foreign MNC",
+      "sub_category": "Semiconductor",
+      "careers_url": "https://careers.ti.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Texas-Instruments-Reviews-E3585.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Arm Holdings",
+      "category": "Foreign MNC",
+      "sub_category": "Semiconductor",
+      "careers_url": "https://careers.arm.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Arm-Holdings-Reviews-E16419.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Noida"
+      ]
+    },
+    {
+      "name": "Dell Technologies",
+      "category": "Foreign MNC",
+      "sub_category": "Hardware",
+      "careers_url": "https://jobs.dell.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Dell-Technologies-Reviews-E2431.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "HP Inc.",
+      "category": "Foreign MNC",
+      "sub_category": "Hardware",
+      "careers_url": "https://jobs.hp.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/HP-Reviews-E1093161.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Atlassian",
+      "category": "Foreign MNC",
+      "sub_category": "DevTools",
+      "careers_url": "https://www.atlassian.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Atlassian-Reviews-E115699.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "category": "Foreign MNC",
+      "sub_category": "DevTools",
+      "careers_url": "https://github.com/about/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/GitHub-Reviews-E671945.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "HashiCorp",
+      "category": "Foreign MNC",
+      "sub_category": "DevOps",
+      "careers_url": "https://www.hashicorp.com/jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/HashiCorp-Reviews-E1365731.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "category": "Foreign MNC",
+      "sub_category": "Data & AI",
+      "careers_url": "https://databricks.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Databricks-Reviews-E954333.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Confluent",
+      "category": "Foreign MNC",
+      "sub_category": "Data",
+      "careers_url": "https://www.confluent.io/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Confluent-Reviews-E1401714.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Foreign MNC",
+      "sub_category": "Database",
+      "careers_url": "https://www.mongodb.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/MongoDB-Reviews-E433864.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Elastic",
+      "category": "Foreign MNC",
+      "sub_category": "Search & Observability",
+      "careers_url": "https://www.elastic.co/about/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Elastic-Reviews-E751551.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Nutanix",
+      "category": "Foreign MNC",
+      "sub_category": "Cloud",
+      "careers_url": "https://www.nutanix.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Nutanix-Reviews-E602382.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "category": "Foreign MNC",
+      "sub_category": "Cloud / Networking",
+      "careers_url": "https://www.cloudflare.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cloudflare-Reviews-E493714.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "VMware (Broadcom)",
+      "category": "Foreign MNC",
+      "sub_category": "Virtualization",
+      "careers_url": "https://broadcom.wd1.myworkdayjobs.com/External_Career?locations=6d1be12dc134103be580f2ed396f3bdf&locations=877d747df7191002136421863fac0000&locations=2d466ab4e6e0013cf503069082349dd2&locations=0dd627624e2e0176f301cad8dcd9ab0b&locations=877d747df71910021363ea290d900000&locations=2a204116f85f01189cd964af936b70fb",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/VMware-Reviews-E12830.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Palo Alto Networks",
+      "category": "Foreign MNC",
+      "sub_category": "Cybersecurity",
+      "careers_url": "https://jobs.paloaltonetworks.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Palo-Alto-Networks-Reviews-E300923.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zscaler",
+      "category": "Foreign MNC",
+      "sub_category": "Cybersecurity",
+      "careers_url": "https://www.zscaler.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zscaler-Reviews-E592713.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "CrowdStrike",
+      "category": "Foreign MNC",
+      "sub_category": "Cybersecurity",
+      "careers_url": "https://www.crowdstrike.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CrowdStrike-Reviews-E749577.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Rubrik",
+      "category": "Foreign MNC",
+      "sub_category": "Cybersecurity",
+      "careers_url": "https://www.rubrik.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Rubrik-Reviews-E888163.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "SentinelOne",
+      "category": "Foreign MNC",
+      "sub_category": "Cybersecurity",
+      "careers_url": "https://www.sentinelone.com/jobs/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/SentinelOne-Reviews-E1271510.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "ServiceNow",
+      "category": "Foreign MNC",
+      "sub_category": "Enterprise SaaS",
+      "careers_url": "https://careers.servicenow.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ServiceNow-Reviews-E403326.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Workday",
+      "category": "Foreign MNC",
+      "sub_category": "Enterprise SaaS",
+      "careers_url": "https://www.workday.com/en-us/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Workday-Reviews-E243819.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Zendesk",
+      "category": "Foreign MNC",
+      "sub_category": "CRM",
+      "careers_url": "https://jobs.zendesk.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zendesk-Reviews-E146252.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "HubSpot",
+      "category": "Foreign MNC",
+      "sub_category": "CRM",
+      "careers_url": "https://www.hubspot.com/jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/HubSpot-Reviews-E227799.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Twilio",
+      "category": "Foreign MNC",
+      "sub_category": "Communications",
+      "careers_url": "https://www.twilio.com/company/jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Twilio-Reviews-E432318.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Autodesk",
+      "category": "Foreign MNC",
+      "sub_category": "Design Software",
+      "careers_url": "https://autodesk.wd1.myworkdayjobs.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Autodesk-Reviews-E1335.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Figma",
+      "category": "Foreign MNC",
+      "sub_category": "Design Tools",
+      "careers_url": "https://www.figma.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Figma-Reviews-E1284922.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zoom",
+      "category": "Foreign MNC",
+      "sub_category": "Communications",
+      "careers_url": "https://careers.zoom.us/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zoom-Video-Communications-Reviews-E1026976.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Synopsys",
+      "category": "Foreign MNC",
+      "sub_category": "EDA",
+      "careers_url": "https://careers.synopsys.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Synopsys-Reviews-E19205.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Cadence Design Systems",
+      "category": "Foreign MNC",
+      "sub_category": "EDA",
+      "careers_url": "https://www.cadence.com/en_US/home/company/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cadence-Design-Systems-Reviews-E14915.htm",
+      "cities": [
+        "Bangalore",
+        "Noida"
+      ]
+    },
+    {
+      "name": "Uber",
+      "category": "Foreign MNC",
+      "sub_category": "Mobility",
+      "careers_url": "https://www.uber.com/us/en/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Uber-Reviews-E575263.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Expedia Group",
+      "category": "Foreign MNC",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://careers.expediagroup.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Expedia-Group-Reviews-E9750.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Booking.com",
+      "category": "Foreign MNC",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://jobs.booking.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Booking-com-Reviews-E256653.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Agoda",
+      "category": "Foreign MNC",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://careersatagoda.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Agoda-Reviews-E263592.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Walmart Global Tech",
+      "category": "Foreign MNC",
+      "sub_category": "Retail Tech",
+      "careers_url": "https://careers.walmart.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Walmart-Global-Tech-India-Reviews-E10203.htm",
+      "cities": [
+        "Bangalore",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Target India",
+      "category": "Foreign MNC",
+      "sub_category": "Retail Tech",
+      "careers_url": "https://india.target.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Target-Reviews-E194.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Wayfair",
+      "category": "Foreign MNC",
+      "sub_category": "E-commerce Tech",
+      "careers_url": "https://www.wayfair.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wayfair-Reviews-E155314.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "LinkedIn",
+      "category": "Foreign MNC",
+      "sub_category": "Social Media",
+      "careers_url": "https://careers.linkedin.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/LinkedIn-Reviews-E34865.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Snap Inc.",
+      "category": "Foreign MNC",
+      "sub_category": "Social Media",
+      "careers_url": "https://careers.snap.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Snap-Reviews-E708357.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "X (Twitter)",
+      "category": "Foreign MNC",
+      "sub_category": "Social Media",
+      "careers_url": "https://careers.x.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Twitter-Reviews-E100569.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Netflix",
+      "category": "Foreign MNC",
+      "sub_category": "Streaming",
+      "careers_url": "https://jobs.netflix.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Netflix-Reviews-E11891.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "category": "Foreign MNC",
+      "sub_category": "Music Tech",
+      "careers_url": "https://www.lifeatspotify.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Spotify-Reviews-E408251.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Honeywell",
+      "category": "Foreign MNC",
+      "sub_category": "Industrial Tech",
+      "careers_url": "https://careers.honeywell.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Honeywell-Reviews-E16191.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Siemens",
+      "category": "Foreign MNC",
+      "sub_category": "Industrial Tech",
+      "careers_url": "https://jobs.siemens.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Siemens-Reviews-E3510.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Bosch",
+      "category": "Foreign MNC",
+      "sub_category": "Industrial Tech",
+      "careers_url": "https://www.bosch.in/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bosch-Reviews-E4503.htm",
+      "cities": [
+        "Bangalore",
+        "Coimbatore"
+      ]
+    },
+    {
+      "name": "Continental",
+      "category": "Foreign MNC",
+      "sub_category": "Automotive Tech",
+      "careers_url": "https://www.continental.com/en/career/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Continental-Reviews-E9736.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "HERE Technologies",
+      "category": "Foreign MNC",
+      "sub_category": "Mapping",
+      "careers_url": "https://careers.here.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/HERE-Technologies-Reviews-E391615.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Motorola Solutions",
+      "category": "Foreign MNC",
+      "sub_category": "Telecom Tech",
+      "careers_url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Motorola-Solutions-Reviews-E14489.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "GE Healthcare",
+      "category": "Foreign MNC",
+      "sub_category": "HealthTech",
+      "careers_url": "https://careers.gehealthcare.com/global/en/india-jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/GE-HealthCare-Reviews-E14494.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Philips",
+      "category": "Foreign MNC",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.careers.philips.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Philips-Reviews-E3651.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Medtronic",
+      "category": "Foreign MNC",
+      "sub_category": "MedTech",
+      "careers_url": "https://jobs.medtronic.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Medtronic-Reviews-E14226.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Intuit",
+      "category": "Foreign MNC",
+      "sub_category": "Fintech",
+      "careers_url": "https://careers.intuit.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Intuit-Reviews-E2293.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "PayPal",
+      "category": "Foreign MNC",
+      "sub_category": "Fintech",
+      "careers_url": "https://careers.pypl.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/PayPal-Reviews-E9880.htm",
+      "cities": [
+        "Chennai",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Stripe",
+      "category": "Foreign MNC",
+      "sub_category": "Fintech",
+      "careers_url": "https://stripe.com/jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Stripe-Reviews-E671932.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Mastercard",
+      "category": "Foreign MNC",
+      "sub_category": "Fintech",
+      "careers_url": "https://careers.mastercard.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Mastercard-Reviews-E17477.htm",
+      "cities": [
+        "Pune",
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Visa",
+      "category": "Foreign MNC",
+      "sub_category": "Fintech",
+      "careers_url": "https://corporate.visa.com/en/jobs.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Visa-Reviews-E2580.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "American Express",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://www.americanexpress.com/en-us/careers/career-areas/technology/?intlink=us-amex-career-en-us-careerArea-home-technology",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/American-Express-Reviews-E929.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Goldman Sachs",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://www.goldmansachs.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Goldman-Sachs-Reviews-E2800.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Morgan Stanley",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://www.morganstanley.com/people-opportunities/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Morgan-Stanley-Reviews-E2763.htm",
+      "cities": [
+        "Mumbai",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "JPMorgan Chase",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://careers.jpmorgan.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/JPMorgan-Chase-Reviews-E145.htm",
+      "cities": [
+        "Mumbai",
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Deutsche Bank",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://careers.db.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Deutsche-Bank-Reviews-E3150.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Barclays",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://search.jobs.barclays/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Barclays-Reviews-E3424.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Wells Fargo",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://www.wellsfargojobs.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wells-Fargo-Reviews-E8876.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Citi",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://jobs.citi.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Citi-Reviews-E9079.htm",
+      "cities": [
+        "Mumbai",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Fidelity Investments",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://jobs.fidelity.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Fidelity-Investments-Reviews-E4425.htm",
+      "cities": [
+        "Bangalore",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "BNY Mellon",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://jobs.bnymellon.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/BNY-Mellon-Reviews-E2736.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "S&P Global",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://careers.spglobal.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/S-P-Global-Reviews-E3288.htm",
+      "cities": [
+        "Hyderabad",
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "LSEG",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://careers.lseg.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/London-Stock-Exchange-Group-Reviews-E6681.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Morningstar",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://www.morningstar.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Morningstar-Reviews-E5055.htm",
+      "cities": [
+        "Hyderabad",
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Broadridge Financial",
+      "category": "Foreign MNC",
+      "sub_category": "Finance Tech",
+      "careers_url": "https://careers.broadridge.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Broadridge-Financial-Solutions-Reviews-E20620.htm",
+      "cities": [
+        "Hyderabad",
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Razorpay",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments",
+      "careers_url": "https://razorpay.com/jobs/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Razorpay-Reviews-E1817580.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "PhonePe",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments",
+      "careers_url": "https://www.phonepe.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/PhonePe-Reviews-E1821649.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Paytm",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments",
+      "careers_url": "https://paytm.com/about-us/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Paytm-Reviews-E765264.htm",
+      "cities": [
+        "Noida",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "CRED",
+      "category": "Fintech & Banking",
+      "sub_category": "Fintech",
+      "careers_url": "https://careers.cred.club/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CRED-Reviews-E4016501.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Groww",
+      "category": "Fintech & Banking",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://groww.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Groww-Reviews-E3006006.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zerodha",
+      "category": "Fintech & Banking",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://zerodha.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zerodha-Reviews-E965819.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Upstox",
+      "category": "Fintech & Banking",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://upstox.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Upstox-Reviews-E1878505.htm",
+      "cities": [
+        "Bangalore",
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Smallcase",
+      "category": "Fintech & Banking",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://smallcase.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/smallcase-Reviews-E2424777.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Angel One",
+      "category": "Fintech & Banking",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://www.angelone.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Angel-Broking-Reviews-E491001.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "INDmoney",
+      "category": "Fintech & Banking",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://www.indmoney.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/INDmoney-Reviews-E3783022.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Jupiter Money",
+      "category": "Fintech & Banking",
+      "sub_category": "Neo Banking",
+      "careers_url": "https://jupiter.money/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Jupiter-Money-Reviews-E4289116.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Fi Money",
+      "category": "Fintech & Banking",
+      "sub_category": "Neo Banking",
+      "careers_url": "https://fi.money/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Fi-Reviews-E4044551.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Niyo",
+      "category": "Fintech & Banking",
+      "sub_category": "Neo Banking",
+      "careers_url": "https://www.goniyo.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Niyo-Solutions-Reviews-E2302948.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Navi Technologies",
+      "category": "Fintech & Banking",
+      "sub_category": "Lending",
+      "careers_url": "https://navi.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Navi-Reviews-E4369047.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Slice",
+      "category": "Fintech & Banking",
+      "sub_category": "Lending",
+      "careers_url": "https://www.sliceit.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/slice-Reviews-E3266004.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "KreditBee",
+      "category": "Fintech & Banking",
+      "sub_category": "Lending",
+      "careers_url": "https://kreditbee.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/KreditBee-Reviews-E2849491.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "MoneyTap",
+      "category": "Fintech & Banking",
+      "sub_category": "Lending",
+      "careers_url": "https://www.moneytap.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/MoneyTap-Reviews-E1854344.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Lendingkart",
+      "category": "Fintech & Banking",
+      "sub_category": "Lending",
+      "careers_url": "https://www.lendingkart.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Lendingkart-Reviews-E953498.htm",
+      "cities": [
+        "Ahmedabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Cashfree Payments",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments",
+      "careers_url": "https://www.cashfree.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cashfree-Payments-Reviews-E2874386.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Juspay",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments",
+      "careers_url": "https://juspay.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Juspay-Reviews-E1067430.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Setu",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments",
+      "careers_url": "https://setu.co/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Setu-Reviews-E4017095.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "BillDesk",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments",
+      "careers_url": "https://www.billdesk.com/web/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/BillDesk-Reviews-E355396.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "NPCI",
+      "category": "Fintech & Banking",
+      "sub_category": "Payments Infrastructure",
+      "careers_url": "https://www.npci.org.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/NPCI-Reviews-E732183.htm",
+      "cities": [
+        "Mumbai",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "HDFC Bank",
+      "category": "Fintech & Banking",
+      "sub_category": "Banking",
+      "careers_url": "https://www.hdfcbank.com/personal/about-us/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/HDFC-Bank-Reviews-E19752.htm",
+      "cities": [
+        "Mumbai",
+        "Gurgaon",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "ICICI Bank",
+      "category": "Fintech & Banking",
+      "sub_category": "Banking",
+      "careers_url": "https://www.icicicareers.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ICICI-Bank-Reviews-E1618.htm",
+      "cities": [
+        "Mumbai",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Axis Bank",
+      "category": "Fintech & Banking",
+      "sub_category": "Banking",
+      "careers_url": "https://www.axisbank.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Axis-Bank-Reviews-E18338.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Kotak Mahindra Bank",
+      "category": "Fintech & Banking",
+      "sub_category": "Banking",
+      "careers_url": "https://www.kotak.com/en/investor-relations/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Kotak-Mahindra-Bank-Reviews-E36020.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Open Financial",
+      "category": "Fintech & Banking",
+      "sub_category": "Neo Banking",
+      "careers_url": "https://open.money/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Open-Financial-Technologies-Reviews-E3041987.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Faircent",
+      "category": "Fintech & Banking",
+      "sub_category": "P2P Lending",
+      "careers_url": "https://www.faircent.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Faircent-Reviews-E1118710.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Accenture",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.accenture.com/in-en/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Accenture-Reviews-E4138.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Mumbai",
+        "Chennai",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Capgemini",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.capgemini.com/in-en/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Capgemini-Reviews-E3044.htm",
+      "cities": [
+        "Mumbai",
+        "Bangalore",
+        "Hyderabad",
+        "Pune",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Thoughtworks",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.thoughtworks.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Thoughtworks-Reviews-E4022.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Pune",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Deloitte",
+      "category": "Consulting",
+      "sub_category": "Big 4",
+      "careers_url": "https://careers2.deloitte.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Deloitte-Reviews-E2763.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Mumbai",
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "PwC",
+      "category": "Consulting",
+      "sub_category": "Big 4",
+      "careers_url": "https://www.pwc.in/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/PwC-Reviews-E3477.htm",
+      "cities": [
+        "Bangalore",
+        "Mumbai",
+        "Hyderabad",
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "EY",
+      "category": "Consulting",
+      "sub_category": "Big 4",
+      "careers_url": "https://careers.ey.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/EY-Reviews-E2784.htm",
+      "cities": [
+        "Bangalore",
+        "Gurgaon",
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "KPMG",
+      "category": "Consulting",
+      "sub_category": "Big 4",
+      "careers_url": "https://kpmg.com/in/en/home/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/KPMG-Reviews-E2867.htm",
+      "cities": [
+        "Bangalore",
+        "Mumbai",
+        "Pune",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "McKinsey & Company",
+      "category": "Consulting",
+      "sub_category": "Strategy Consulting",
+      "careers_url": "https://www.mckinsey.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/McKinsey-and-Company-Reviews-E2893.htm",
+      "cities": [
+        "Gurgaon",
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "BCG",
+      "category": "Consulting",
+      "sub_category": "Strategy Consulting",
+      "careers_url": "https://careers.bcg.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Boston-Consulting-Group-Reviews-E3879.htm",
+      "cities": [
+        "Mumbai",
+        "Gurgaon",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Bain & Company",
+      "category": "Consulting",
+      "sub_category": "Strategy Consulting",
+      "careers_url": "https://www.bain.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bain-and-Company-Reviews-E3752.htm",
+      "cities": [
+        "Mumbai",
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "NTT Data",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.nttdata.com/global/en/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/NTT-DATA-Reviews-E11787.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "DXC Technology",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://careers.dxc.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/DXC-Technology-Reviews-E1474877.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "CGI Group",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.cgi.com/en/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CGI-Reviews-E5028.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Publicis Sapient",
+      "category": "Consulting",
+      "sub_category": "Digital Consulting",
+      "careers_url": "https://careers.publicissapient.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Publicis-Sapient-Reviews-E46996.htm",
+      "cities": [
+        "Gurgaon",
+        "Bangalore",
+        "Noida"
+      ]
+    },
+    {
+      "name": "EPAM Systems",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.epam.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/EPAM-Systems-Reviews-E100669.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "GlobalLogic (Hitachi)",
+      "category": "Consulting",
+      "sub_category": "Product Engineering",
+      "careers_url": "https://www.globallogic.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/GlobalLogic-Reviews-E18820.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Noida",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Nagarro",
+      "category": "Consulting",
+      "sub_category": "Product Engineering",
+      "careers_url": "https://www.nagarro.com/en/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Nagarro-Reviews-E474433.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Virtusa",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.virtusa.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Virtusa-Reviews-E103523.htm",
+      "cities": [
+        "Hyderabad",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Infogain",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.infogain.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Infogain-Reviews-E10706.htm",
+      "cities": [
+        "Noida",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Mphasis",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://careers.mphasis.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Mphasis-Reviews-E11709.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Xoriant",
+      "category": "Consulting",
+      "sub_category": "Product Engineering",
+      "careers_url": "https://www.xoriant.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Xoriant-Reviews-E21477.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Razorpay Rize",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://rize.razorpay.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Razorpay-Reviews-E1817580.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Paytm Payments Bank",
+      "category": "Indian Product Startup",
+      "sub_category": "Banking",
+      "careers_url": "https://jobs.lever.co/paytmpayments?commitment=Intern&department=Technology&team=Payment%20Gateway",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Paytm-Payments-Bank-Reviews-E2205124.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Rupeek",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://rupeek.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Rupeek-Reviews-E2072413.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Perfios",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.perfios.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Perfios-Reviews-E1038895.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Signzy",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://signzy.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Signzy-Reviews-E2372485.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zaggle",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.zaggle.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zaggle-Reviews-E2096609.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "M2P Fintech",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://m2pfintech.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/M2P-Fintech-Reviews-E3893116.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Yubi (CredAvenue)",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.go-yubi.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CredAvenue-Reviews-E5040327.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Recko (Stripe)",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.recko.io/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Recko-Reviews-E4030985.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Decentro",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://decentro.tech/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Decentro-Reviews-E4815337.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Plum (employee health insurance)",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://www.plumhq.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Plum-Reviews-E4756148.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Loop Health",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://www.loophealth.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Loop-Health-Reviews-E4742523.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Onsurity",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://www.onsurity.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Onsurity-Reviews-E4985627.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Meesho Supply",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://meesho.io/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Meesho-Reviews-E1700514.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Pickrr",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://www.pickrr.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Pickrr-Reviews-E2909432.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Xpressbees",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://www.xpressbees.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Xpressbees-Reviews-E2054665.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Ecom Express",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://www.ecomexpress.in/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ecom-Express-Reviews-E1000088.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Zeta (Sodexo BaaS)",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.zeta.tech/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zeta-Reviews-E1874447.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Navi Mutual Fund",
+      "category": "Indian Product Startup",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://navi.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Navi-Reviews-E4369047.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Wealthy.in",
+      "category": "Indian Product Startup",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://wealthy.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wealthy-in-Reviews-E3093424.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Kuvera",
+      "category": "Indian Product Startup",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://kuvera.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Kuvera-Reviews-E2401459.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Dunzo",
+      "category": "Indian Product Startup",
+      "sub_category": "Q-Commerce",
+      "careers_url": "https://dunzoclone.vercel.app/others/viewjobs.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Dunzo-Reviews-E1764026.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Swiggy Genie",
+      "category": "Indian Product Startup",
+      "sub_category": "Hyperlocal",
+      "careers_url": "https://careers.swiggy.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Swiggy-Reviews-E1340127.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "OYO Rooms",
+      "category": "Indian Product Startup",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://www.oyorooms.com/corporate/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/OYO-Rooms-Reviews-E1174963.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Yatra.com",
+      "category": "Indian Product Startup",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://tech.yatra.com/jobs",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Yatra-com-Reviews-E340696.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "RailYatri",
+      "category": "Indian Product Startup",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://www.railyatri.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/RailYatri-Reviews-E1109765.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Treebo Hotels",
+      "category": "Indian Product Startup",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://www.treebohotels.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Treebo-Hotels-Reviews-E1469619.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Niyo Travel",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.goniyo.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Niyo-Solutions-Reviews-E2302948.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Cult.sport",
+      "category": "Indian Product Startup",
+      "sub_category": "D2C / Sports",
+      "careers_url": "https://www.cure.fit/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cure-fit-Reviews-E1898400.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "EarlySalary",
+      "category": "Indian Product Startup",
+      "sub_category": "Lending",
+      "careers_url": "https://www.earlysalary.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/EarlySalary-Reviews-E1782893.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Kissht",
+      "category": "Indian Product Startup",
+      "sub_category": "Lending",
+      "careers_url": "https://kissht.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Kissht-Reviews-E1834617.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Incred Finance",
+      "category": "Indian Product Startup",
+      "sub_category": "Lending",
+      "careers_url": "https://www.incred.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/InCred-Reviews-E1676700.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Ola Money",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.olacabs.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ola-Cabs-Reviews-E691485.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Fampay",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://fampay.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/FamPay-Reviews-E3840523.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Stashfin",
+      "category": "Indian Product Startup",
+      "sub_category": "Lending",
+      "careers_url": "https://www.stashfin.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Stashfin-Reviews-E2277684.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Credgenics",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://credgenics.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Credgenics-Reviews-E4289042.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Yellow.ai",
+      "category": "Indian Product Startup",
+      "sub_category": "AI / Conversational AI",
+      "careers_url": "https://yellow.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Yellow-ai-Reviews-E2282965.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Vernacular.ai",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://vernacular.ai/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Vernacular-ai-Reviews-E3610052.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Haptik (JioHaptik)",
+      "category": "Indian Product Startup",
+      "sub_category": "AI / Chatbot",
+      "careers_url": "https://haptik.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Haptik-Reviews-E862427.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Observe.AI",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://www.observe.ai/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Observe-AI-Reviews-E3277539.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Uniphore",
+      "category": "Indian Product Startup",
+      "sub_category": "AI",
+      "careers_url": "https://www.uniphore.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Uniphore-Reviews-E719478.htm",
+      "cities": [
+        "Chennai",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Niramai Health Analytix",
+      "category": "Indian Product Startup",
+      "sub_category": "AI / HealthTech",
+      "careers_url": "https://niramai.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Niramai-Health-Analytix-Reviews-E2215702.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "5C Network",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://www.5cnetwork.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/5C-Network-Reviews-E3547032.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Healthplix",
+      "category": "Indian Product Startup",
+      "sub_category": "HealthTech",
+      "careers_url": "https://healthplix.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Healthplix-Reviews-E3551006.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Vedix",
+      "category": "Indian Product Startup",
+      "sub_category": "D2C",
+      "careers_url": "https://vedix.com/pages/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Vedix-Reviews-E4289318.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "The Man Company",
+      "category": "Indian Product Startup",
+      "sub_category": "D2C",
+      "careers_url": "https://themancompany.com/pages/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/The-Man-Company-Reviews-E1700508.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "WOW Skin Science",
+      "category": "Indian Product Startup",
+      "sub_category": "D2C",
+      "careers_url": "https://www.wowskinscience.com/pages/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wow-Skin-Science-Reviews-E3040783.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Josh Talks",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech / Media",
+      "careers_url": "https://joshtalks.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Josh-Talks-Reviews-E2062965.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Toppr (Byju's)",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.toppr.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Toppr-Reviews-E867700.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Harness",
+      "category": "Indian Product Startup",
+      "sub_category": "DevOps",
+      "careers_url": "https://harness.io/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Harness-Reviews-E1680959.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Druva",
+      "category": "Indian Product Startup",
+      "sub_category": "Cloud Data Protection",
+      "careers_url": "https://www.druva.com/about/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Druva-Reviews-E554946.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Icertis",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS / LegalTech",
+      "careers_url": "https://www.icertis.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Icertis-Reviews-E657461.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Sigmoid",
+      "category": "Indian Product Startup",
+      "sub_category": "Data Engineering",
+      "careers_url": "https://www.sigmoid.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Sigmoid-Reviews-E1264020.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Fractal Analytics",
+      "category": "Indian Product Startup",
+      "sub_category": "AI / Analytics",
+      "careers_url": "https://fractal.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Fractal-Analytics-Reviews-E416178.htm",
+      "cities": [
+        "Mumbai",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Mu Sigma",
+      "category": "Indian Product Startup",
+      "sub_category": "Analytics",
+      "careers_url": "https://www.mu-sigma.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Mu-Sigma-Reviews-E507489.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "LatentView Analytics",
+      "category": "Indian Product Startup",
+      "sub_category": "Analytics",
+      "careers_url": "https://www.latentview.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/LatentView-Analytics-Reviews-E605072.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Tiger Analytics",
+      "category": "Indian Product Startup",
+      "sub_category": "Analytics",
+      "careers_url": "https://www.tigeranalytics.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Tiger-Analytics-Reviews-E1006553.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Brillio",
+      "category": "Indian Product Startup",
+      "sub_category": "Digital Transformation",
+      "careers_url": "https://www.brillio.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Brillio-Reviews-E918551.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Searce",
+      "category": "Indian Product Startup",
+      "sub_category": "Cloud / Google Partner",
+      "careers_url": "https://searce.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Searce-Reviews-E921316.htm",
+      "cities": [
+        "Pune",
+        "Ahmedabad"
+      ]
+    },
+    {
+      "name": "Rakuten",
+      "category": "Foreign MNC",
+      "sub_category": "E-commerce Tech",
+      "careers_url": "https://careers.rakuten.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Rakuten-Reviews-E3636.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Airbnb",
+      "category": "Foreign MNC",
+      "sub_category": "Travel Tech",
+      "careers_url": "https://careers.airbnb.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Airbnb-Reviews-E391850.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Shopify",
+      "category": "Foreign MNC",
+      "sub_category": "E-commerce",
+      "careers_url": "https://www.shopify.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Shopify-Reviews-E675933.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Slack (Salesforce)",
+      "category": "Foreign MNC",
+      "sub_category": "Productivity",
+      "careers_url": "https://slack.com/intl/en-in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Slack-Reviews-E950348.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Okta",
+      "category": "Foreign MNC",
+      "sub_category": "Cybersecurity / Identity",
+      "careers_url": "https://www.okta.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Okta-Reviews-E753778.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Splunk",
+      "category": "Foreign MNC",
+      "sub_category": "Data / Observability",
+      "careers_url": "https://www.splunk.com/en_us/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Splunk-Reviews-E255928.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "New Relic",
+      "category": "Foreign MNC",
+      "sub_category": "Observability",
+      "careers_url": "https://newrelic.com/about/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/New-Relic-Reviews-E240958.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Dynatrace",
+      "category": "Foreign MNC",
+      "sub_category": "Observability",
+      "careers_url": "https://www.dynatrace.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Dynatrace-Reviews-E482216.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Informatica",
+      "category": "Foreign MNC",
+      "sub_category": "Data Management",
+      "careers_url": "https://www.informatica.com/about-us/careers.html",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Informatica-Reviews-E13439.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "MicroStrategy",
+      "category": "Foreign MNC",
+      "sub_category": "Analytics",
+      "careers_url": "https://www.microstrategy.com/en/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/MicroStrategy-Reviews-E10605.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Teradata",
+      "category": "Foreign MNC",
+      "sub_category": "Data Warehouse",
+      "careers_url": "https://careers.teradata.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Teradata-Reviews-E3860.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Akamai",
+      "category": "Foreign MNC",
+      "sub_category": "CDN / Cloud",
+      "careers_url": "https://www.akamai.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Akamai-Technologies-Reviews-E8707.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "F5 Networks",
+      "category": "Foreign MNC",
+      "sub_category": "Networking",
+      "careers_url": "https://www.f5.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/F5-Reviews-E2043.htm",
+      "cities": [
+        "Hyderabad",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "NetApp",
+      "category": "Foreign MNC",
+      "sub_category": "Storage / Cloud",
+      "careers_url": "https://careers.netapp.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/NetApp-Reviews-E1541.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Juniper Networks",
+      "category": "Foreign MNC",
+      "sub_category": "Networking",
+      "careers_url": "https://careers.juniper.net/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Juniper-Networks-Reviews-E3284.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Veritas Technologies",
+      "category": "Foreign MNC",
+      "sub_category": "Data Management",
+      "careers_url": "https://careers.veritas.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Veritas-Technologies-Reviews-E10681.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "CommScope",
+      "category": "Foreign MNC",
+      "sub_category": "Networking",
+      "careers_url": "https://careers.commscope.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CommScope-Reviews-E10277.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Trimble",
+      "category": "Foreign MNC",
+      "sub_category": "Geo Tech",
+      "careers_url": "https://careers.trimble.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Trimble-Reviews-E9437.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Bentley Systems",
+      "category": "Foreign MNC",
+      "sub_category": "Engineering Software",
+      "careers_url": "https://www.bentley.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bentley-Systems-Reviews-E3387.htm",
+      "cities": [
+        "Hyderabad",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Ansys",
+      "category": "Foreign MNC",
+      "sub_category": "Simulation Software",
+      "careers_url": "https://www.ansys.com/en-in/about-ansys/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ansys-Reviews-E4872.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "PTC Inc.",
+      "category": "Foreign MNC",
+      "sub_category": "Industrial Software",
+      "careers_url": "https://www.ptc.com/en/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/PTC-Reviews-E5165.htm",
+      "cities": [
+        "Pune",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Wolters Kluwer",
+      "category": "Foreign MNC",
+      "sub_category": "Legal / Finance Tech",
+      "careers_url": "https://careers.wolterskluwer.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wolters-Kluwer-Reviews-E12244.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Dun & Bradstreet",
+      "category": "Foreign MNC",
+      "sub_category": "Finance Data",
+      "careers_url": "https://careers.dnb.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Dun-Bradstreet-Reviews-E1628.htm",
+      "cities": [
+        "Mumbai",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "MSCI",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://careers.msci.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/MSCI-Reviews-E28674.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "FactSet",
+      "category": "Foreign MNC",
+      "sub_category": "Finance Data",
+      "careers_url": "https://careers.factset.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/FactSet-Reviews-E2994.htm",
+      "cities": [
+        "Hyderabad",
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "IHS Markit (S&P)",
+      "category": "Foreign MNC",
+      "sub_category": "Finance Data",
+      "careers_url": "https://careers.spglobal.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/IHS-Markit-Reviews-E12468.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Refinitiv (LSEG)",
+      "category": "Foreign MNC",
+      "sub_category": "Finance",
+      "careers_url": "https://careers.lseg.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Refinitiv-Reviews-E1351982.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "FIS Global",
+      "category": "Foreign MNC",
+      "sub_category": "Finance Tech",
+      "careers_url": "https://careers.fisglobal.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/FIS-Reviews-E4600.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad",
+        "Chennai",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Fiserv",
+      "category": "Foreign MNC",
+      "sub_category": "Finance Tech",
+      "careers_url": "https://careers.fiserv.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Fiserv-Reviews-E49756.htm",
+      "cities": [
+        "Pune",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "NCR Voyix",
+      "category": "Foreign MNC",
+      "sub_category": "Finance Tech",
+      "careers_url": "https://www.ncrvoyix.com/company/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/NCR-Corporation-Reviews-E3637.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Mimecast",
+      "category": "Foreign MNC",
+      "sub_category": "Cybersecurity",
+      "careers_url": "https://www.mimecast.com/company/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Mimecast-Reviews-E399348.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Commvault",
+      "category": "Foreign MNC",
+      "sub_category": "Data Protection",
+      "careers_url": "https://www.commvault.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Commvault-Reviews-E1816.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Veeam Software",
+      "category": "Foreign MNC",
+      "sub_category": "Data Protection",
+      "careers_url": "https://careers.veeam.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Veeam-Software-Reviews-E374009.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Wipro Digital",
+      "category": "Consulting",
+      "sub_category": "Digital Consulting",
+      "careers_url": "https://careers.wipro.com/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wipro-Reviews-E9810.htm",
+      "cities": [
+        "Bangalore",
+        "Pune",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Hexaware",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://hexaware.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Hexaware-Technologies-Reviews-E41929.htm",
+      "cities": [
+        "Chennai",
+        "Mumbai",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Zensar Technologies",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.zensar.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zensar-Technologies-Reviews-E38441.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Mastech Digital",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.mastechdigital.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Mastech-Digital-Reviews-E3089247.htm",
+      "cities": [
+        "Pune",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "3i Infotech",
+      "category": "Consulting",
+      "sub_category": "Tech Consulting",
+      "careers_url": "https://www.3iinfotech.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/3i-Infotech-Reviews-E209834.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Cyient",
+      "category": "Consulting",
+      "sub_category": "Engineering Services",
+      "careers_url": "https://www.cyient.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cyient-Reviews-E15546.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "KPIT Technologies",
+      "category": "Consulting",
+      "sub_category": "Automotive IT",
+      "careers_url": "https://www.kpit.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/KPIT-Technologies-Reviews-E16266.htm",
+      "cities": [
+        "Pune",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Tata Elxsi",
+      "category": "Consulting",
+      "sub_category": "Design / Engineering",
+      "careers_url": "https://www.tataelxsi.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Tata-Elxsi-Reviews-E30735.htm",
+      "cities": [
+        "Bangalore",
+        "Pune",
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Quest Global",
+      "category": "Consulting",
+      "sub_category": "Engineering Services",
+      "careers_url": "https://www.quest-global.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Quest-Global-Reviews-E318804.htm",
+      "cities": [
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Harman (Samsung)",
+      "category": "Consulting",
+      "sub_category": "Embedded / Automotive",
+      "careers_url": "https://harman.com/en/connect-with-us/career",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/HARMAN-International-Reviews-E7587.htm",
+      "cities": [
+        "Bangalore",
+        "Pune"
+      ]
+    },
+    {
+      "name": "Sasken Technologies",
+      "category": "Consulting",
+      "sub_category": "Embedded / Product Engineering",
+      "careers_url": "https://www.sasken.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Sasken-Technologies-Reviews-E20386.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "L&T Technology Services",
+      "category": "Consulting",
+      "sub_category": "Engineering Services",
+      "careers_url": "https://www.ltts.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/L-T-Technology-Services-Reviews-E1061085.htm",
+      "cities": [
+        "Pune",
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+    {
+    "name": "Instawork",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce Tech",
+      "careers_url": "https://www.instawork.com/careers#job-listings",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/L-T-Technology-Services-Reviews-E1061085.htm",
+      "cities": [
+        "Pune",
+        "Bangalore",
+        "Hyderabad"
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "name": "Apna.co",
+      "category": "Indian Product Startup",
+      "sub_category": "Jobs Platform",
+      "careers_url": "https://apna.co/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Apna-Reviews-E4372695.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Internshala",
+      "category": "Indian Product Startup",
+      "sub_category": "Jobs Platform",
+      "careers_url": "https://internshala.com/about/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Internshala-Reviews-E1095454.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "CutShort",
+      "category": "Indian Product Startup",
+      "sub_category": "Jobs Platform",
+      "careers_url": "https://cutshort.io/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CutShort-Reviews-E2014929.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Unstop (Dare2Compete)",
+      "category": "Indian Product Startup",
+      "sub_category": "Campus Hiring",
+      "careers_url": "https://unstop.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Unstop-Reviews-E2869485.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Foundit (Monster India)",
+      "category": "Indian Product Startup",
+      "sub_category": "Jobs Platform",
+      "careers_url": "https://www.foundit.in/seeker/static/jobs-at-monster",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Monster-com-Reviews-E42775.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Urban Company",
+      "category": "Indian Product Startup",
+      "sub_category": "Home Services",
+      "careers_url": "https://www.urbancompany.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Urban-Company-Reviews-E1834447.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Housejoy",
+      "category": "Indian Product Startup",
+      "sub_category": "Home Services",
+      "careers_url": "https://www.housejoy.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Housejoy-Reviews-E1117774.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "UrbanPiper",
+      "category": "Indian Product Startup",
+      "sub_category": "Restaurant Tech",
+      "careers_url": "https://urbanpiper.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/UrbanPiper-Reviews-E2256649.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Thrive (DotPe)",
+      "category": "Indian Product Startup",
+      "sub_category": "Restaurant Tech",
+      "careers_url": "https://dotpe.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/DotPe-Reviews-E4491014.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Petpooja",
+      "category": "Indian Product Startup",
+      "sub_category": "Restaurant Tech",
+      "careers_url": "https://petpooja.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Petpooja-Reviews-E2120893.htm",
+      "cities": [
+        "Ahmedabad"
+      ]
+    },
+    {
+      "name": "Posist Technologies",
+      "category": "Indian Product Startup",
+      "sub_category": "Restaurant Tech",
+      "careers_url": "https://posist.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Posist-Technologies-Reviews-E1059975.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "NxtWave",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.nxtwave.tech/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/NxtWave-Reviews-E4830437.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Graphy (Teachable India)",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://graphy.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Graphy-Reviews-E4781259.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Teachmint",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://teachmint.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Teachmint-Reviews-E4291093.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Edureka",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.edureka.co/about-us#careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Edureka-Reviews-E803357.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Simplilearn",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.simplilearn.com/about-simplilearn/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Simplilearn-Reviews-E762103.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "PrepInsta",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://prepinsta.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/PrepInsta-Reviews-E3461093.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Coding Ninjas",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://www.codingninjas.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Coding-Ninjas-Reviews-E2124001.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Learnapp",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://learnapp.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/LearnApp-Reviews-E5218740.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Yocket",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech / Study Abroad",
+      "careers_url": "https://yocket.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Yocket-Reviews-E3095025.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Leverage Edu",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech / Study Abroad",
+      "careers_url": "https://leverageedu.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Leverage-Edu-Reviews-E3460234.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Collegedunia",
+      "category": "Indian Product Startup",
+      "sub_category": "EdTech",
+      "careers_url": "https://collegedunia.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Collegedunia-Reviews-E1069225.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "OneCard (FPL Technologies)",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech",
+      "careers_url": "https://www.onecard.io/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/FPL-Technologies-Reviews-E4119649.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Simpl",
+      "category": "Indian Product Startup",
+      "sub_category": "BNPL / Payments",
+      "careers_url": "https://simpl.credit/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Simpl-Reviews-E2099893.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Jar App",
+      "category": "Indian Product Startup",
+      "sub_category": "Savings / Fintech",
+      "careers_url": "https://myjar.app/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Jar-Reviews-E5209127.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Volopay",
+      "category": "Indian Product Startup",
+      "sub_category": "Corporate Finance",
+      "careers_url": "https://www.volopay.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Volopay-Reviews-E5143988.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Karbon Card",
+      "category": "Indian Product Startup",
+      "sub_category": "Corporate Cards",
+      "careers_url": "https://www.karboncard.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Karbon-Reviews-E5009478.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Recur Club",
+      "category": "Indian Product Startup",
+      "sub_category": "Revenue Finance",
+      "careers_url": "https://recur.club/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Recur-Club-Reviews-E5484731.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Wint Wealth",
+      "category": "Indian Product Startup",
+      "sub_category": "Wealth Tech",
+      "careers_url": "https://wintwealth.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Wint-Wealth-Reviews-E5296374.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Ditto Insurance",
+      "category": "Indian Product Startup",
+      "sub_category": "InsurTech",
+      "careers_url": "https://joinditto.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ditto-Insurance-Reviews-E5281847.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zolve",
+      "category": "Indian Product Startup",
+      "sub_category": "Neo Banking",
+      "careers_url": "https://zolve.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zolve-Reviews-E5011434.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Hyperface",
+      "category": "Indian Product Startup",
+      "sub_category": "Fintech Infra",
+      "careers_url": "https://hyperface.co/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Hyperface-Reviews-E6148352.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Tartan (API)",
+      "category": "Indian Product Startup",
+      "sub_category": "Payroll API",
+      "careers_url": "https://www.tartan.co.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Tartan-Reviews-E6298145.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Instamojo",
+      "category": "Indian Product Startup",
+      "sub_category": "Payments",
+      "careers_url": "https://www.instamojo.com/about/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Instamojo-Reviews-E1019219.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Paytail",
+      "category": "Indian Product Startup",
+      "sub_category": "BNPL",
+      "careers_url": "https://paytail.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Paytail-Reviews-E4977803.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "OfBusiness",
+      "category": "Indian Product Startup",
+      "sub_category": "B2B Fintech",
+      "careers_url": "https://www.ofbusiness.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/OfBusiness-Reviews-E2888046.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Oxyzo (OfBusiness)",
+      "category": "Indian Product Startup",
+      "sub_category": "B2B Lending",
+      "careers_url": "https://www.oxyzo.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Oxyzo-Reviews-E5562091.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Locus.sh",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics SaaS",
+      "careers_url": "https://locus.sh/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Locus-Reviews-E2075344.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Vahak",
+      "category": "Indian Product Startup",
+      "sub_category": "Logistics",
+      "careers_url": "https://vahak.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Vahak-Reviews-E4753527.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Fraazo",
+      "category": "Indian Product Startup",
+      "sub_category": "Agri Logistics",
+      "careers_url": "https://fraazo.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Fraazo-Reviews-E4413614.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "EasyEcom",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce Logistics",
+      "careers_url": "https://easyecom.io/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/EasyEcom-Reviews-E3051027.htm",
+      "cities": [
+        "Noida"
+      ]
+    },
+    {
+      "name": "Eshopbox",
+      "category": "Indian Product Startup",
+      "sub_category": "E-commerce Fulfillment",
+      "careers_url": "https://www.eshopbox.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Eshopbox-Reviews-E3196839.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Hevo Data",
+      "category": "Indian Product Startup",
+      "sub_category": "Data Pipeline SaaS",
+      "careers_url": "https://hevodata.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Hevo-Data-Reviews-E2905026.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Rocketlane",
+      "category": "Indian Product Startup",
+      "sub_category": "Project Management SaaS",
+      "careers_url": "https://www.rocketlane.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Rocketlane-Reviews-E5086516.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Sprinto",
+      "category": "Indian Product Startup",
+      "sub_category": "Compliance SaaS",
+      "careers_url": "https://sprinto.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Sprinto-Reviews-E5185099.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zluri",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS Management",
+      "careers_url": "https://www.zluri.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zluri-Reviews-E5167329.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Spendflo",
+      "category": "Indian Product Startup",
+      "sub_category": "SaaS Procurement",
+      "careers_url": "https://www.spendflo.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Spendflo-Reviews-E5505683.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Suprsend",
+      "category": "Indian Product Startup",
+      "sub_category": "Notification Infra",
+      "careers_url": "https://suprsend.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/SuprSend-Reviews-E7021541.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Plivo",
+      "category": "Indian Product Startup",
+      "sub_category": "Cloud Communications",
+      "careers_url": "https://www.plivo.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Plivo-Reviews-E694685.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Squadcast",
+      "category": "Indian Product Startup",
+      "sub_category": "SRE / Incident Management",
+      "careers_url": "https://squadcast.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Squadcast-Reviews-E3665578.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Paperflite",
+      "category": "Indian Product Startup",
+      "sub_category": "Sales Enablement SaaS",
+      "careers_url": "https://www.paperflite.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Paperflite-Reviews-E3004743.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Zomentum",
+      "category": "Indian Product Startup",
+      "sub_category": "IT Channel SaaS",
+      "careers_url": "https://www.zomentum.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zomentum-Reviews-E4047085.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Infeedo (Amber)",
+      "category": "Indian Product Startup",
+      "sub_category": "Employee Engagement SaaS",
+      "careers_url": "https://infeedo.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/inFeedo-Reviews-E1861494.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Leena AI",
+      "category": "Indian Product Startup",
+      "sub_category": "HR AI SaaS",
+      "careers_url": "https://leena.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Leena-AI-Reviews-E3475093.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Xoxoday (Giift)",
+      "category": "Indian Product Startup",
+      "sub_category": "Rewards SaaS",
+      "careers_url": "https://www.xoxoday.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Xoxoday-Reviews-E1819716.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "DataWeave",
+      "category": "Indian Product Startup",
+      "sub_category": "Retail Analytics SaaS",
+      "careers_url": "https://dataweave.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/DataWeave-Reviews-E1117668.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Pixis",
+      "category": "Indian Product Startup",
+      "sub_category": "Marketing AI",
+      "careers_url": "https://pixis.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Pixis-Reviews-E4386701.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Arya.ai",
+      "category": "Indian Product Startup",
+      "sub_category": "AI / ML Platform",
+      "careers_url": "https://arya.ai/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Arya-ai-Reviews-E2478702.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Entropik Tech",
+      "category": "Indian Product Startup",
+      "sub_category": "Emotion AI",
+      "careers_url": "https://entropiktech.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Entropik-Tech-Reviews-E2627434.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Detect Technologies",
+      "category": "Indian Product Startup",
+      "sub_category": "Industrial AI",
+      "careers_url": "https://detect.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Detect-Technologies-Reviews-E3518052.htm",
+      "cities": [
+        "Chennai"
+      ]
+    },
+    {
+      "name": "Verloop.io",
+      "category": "Indian Product Startup",
+      "sub_category": "Conversational AI",
+      "careers_url": "https://verloop.io/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Verloop-io-Reviews-E2893940.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Skit.ai",
+      "category": "Indian Product Startup",
+      "sub_category": "Voice AI",
+      "careers_url": "https://skit.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Skit-ai-Reviews-E4379742.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "CropIn",
+      "category": "Indian Product Startup",
+      "sub_category": "Agri AI",
+      "careers_url": "https://www.cropin.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/CropIn-Technology-Reviews-E1277745.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Prodigal Technologies",
+      "category": "Indian Product Startup",
+      "sub_category": "Finance AI",
+      "careers_url": "https://prodigaltech.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Prodigal-Technologies-Reviews-E4022938.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Quantiphi",
+      "category": "Indian Product Startup",
+      "sub_category": "AI / Analytics",
+      "careers_url": "https://quantiphi.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Quantiphi-Reviews-E2157090.htm",
+      "cities": [
+        "Mumbai",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Squadstack",
+      "category": "Indian Product Startup",
+      "sub_category": "Sales AI",
+      "careers_url": "https://squadstack.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/SquadStack-Reviews-E2044753.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+    {
+      "name": "Bobble AI",
+      "category": "Indian Product Startup",
+      "sub_category": "Keyboard AI",
+      "careers_url": "https://bobbleapp.me/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bobble-AI-Reviews-E3295490.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Airmeet",
+      "category": "Indian Product Startup",
+      "sub_category": "Virtual Events",
+      "careers_url": "https://www.airmeet.com/hub/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Airmeet-Reviews-E3765424.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Zuddl",
+      "category": "Indian Product Startup",
+      "sub_category": "Events Platform",
+      "careers_url": "https://www.zuddl.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zuddl-Reviews-E4999427.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Hubilo",
+      "category": "Indian Product Startup",
+      "sub_category": "Events Platform",
+      "careers_url": "https://hubilo.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Hubilo-Reviews-E3526088.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Magicpin",
+      "category": "Indian Product Startup",
+      "sub_category": "Hyperlocal Discovery",
+      "careers_url": "https://magicpin.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Magicpin-Reviews-E2050432.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Ultrahuman",
+      "category": "Indian Product Startup",
+      "sub_category": "Wearables / HealthTech",
+      "careers_url": "https://ultrahuman.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ultrahuman-Reviews-E5122547.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Miko",
+      "category": "Indian Product Startup",
+      "sub_category": "Robotics / EdTech",
+      "careers_url": "https://miko.ai/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Miko-Reviews-E3267810.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Fynd (Shopsense Retail)",
+      "category": "Indian Product Startup",
+      "sub_category": "Retail Tech",
+      "careers_url": "https://www.fynd.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Fynd-Reviews-E1619261.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Good Glamm Group",
+      "category": "Indian Product Startup",
+      "sub_category": "D2C Beauty",
+      "careers_url": "https://www.goodglamm.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Good-Glamm-Group-Reviews-E4956413.htm",
+      "cities": [
+        "Mumbai"
+      ]
+    },
+    {
+      "name": "Cashify",
+      "category": "Indian Product Startup",
+      "sub_category": "Refurbished Electronics",
+      "careers_url": "https://www.cashify.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Cashify-Reviews-E1669375.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Zupee",
+      "category": "Indian Product Startup",
+      "sub_category": "Gaming",
+      "careers_url": "https://www.zupee.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Zupee-Reviews-E4178327.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "Trell",
+      "category": "Indian Product Startup",
+      "sub_category": "Social Commerce",
+      "careers_url": "https://trell.co/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Trell-Reviews-E3553093.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Log9 Materials",
+      "category": "Indian Product Startup",
+      "sub_category": "Battery Tech",
+      "careers_url": "https://www.log9materials.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Log9-Materials-Reviews-E4192876.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Exponent Energy",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Charging",
+      "careers_url": "https://www.exponent.energy/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Exponent-Energy-Reviews-E5347152.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Matter EV",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Tech",
+      "careers_url": "https://www.matter.in/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Matter-Reviews-E6148191.htm",
+      "cities": [
+        "Ahmedabad"
+      ]
+    },
+    {
+      "name": "Oben Electric",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Tech",
+      "careers_url": "https://obenelectric.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Oben-Electric-Reviews-E5819734.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Bounce Infinity",
+      "category": "Indian Product Startup",
+      "sub_category": "EV Mobility",
+      "careers_url": "https://www.bounceshare.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bounce-Reviews-E2186388.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Dhruva Space",
+      "category": "Indian Product Startup",
+      "sub_category": "Space Tech",
+      "careers_url": "https://dhruvaspace.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Dhruva-Space-Reviews-E5041312.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Bellatrix Aerospace",
+      "category": "Indian Product Startup",
+      "sub_category": "Space Tech",
+      "careers_url": "https://www.bellatrixaerospace.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Bellatrix-Aerospace-Reviews-E3892477.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Azista BST Aerospace",
+      "category": "Indian Product Startup",
+      "sub_category": "Space Tech",
+      "careers_url": "https://azistabst.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Azista-BST-Aerospace-Reviews-E6893142.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "TakeMe2Space",
+      "category": "Indian Product Startup",
+      "sub_category": "Space Tech",
+      "careers_url": "https://www.takeme2space.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/TakeMe2Space-Reviews-E9912345.htm",
+      "cities": [
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "Ecozen Solutions",
+      "category": "Indian Product Startup",
+      "sub_category": "Climate Tech",
+      "careers_url": "https://ecozen.in/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Ecozen-Reviews-E2278897.htm",
+      "cities": [
+        "Pune"
+      ]
+    },
+    {
+      "name": "Eruvaka Technologies",
+      "category": "Indian Product Startup",
+      "sub_category": "Aqua Tech",
+      "careers_url": "https://eruvaka.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Eruvaka-Technologies-Reviews-E1936862.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "StanPlus",
+      "category": "Indian Product Startup",
+      "sub_category": "Emergency Services Tech",
+      "careers_url": "https://stanplus.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/StanPlus-Reviews-E3993017.htm",
+      "cities": [
+        "Hyderabad"
+      ]
+    },
+    {
+      "name": "Fashinza",
+      "category": "Indian Product Startup",
+      "sub_category": "Fashion B2B",
+      "careers_url": "https://fashinza.com/careers/",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Fashinza-Reviews-E4358741.htm",
+      "cities": [
+        "Gurgaon"
+      ]
+    },
+    {
+      "name": "ReshaMandi",
+      "category": "Indian Product Startup",
+      "sub_category": "Textile Tech",
+      "careers_url": "https://reshamandi.com/careers",
+      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/ReshaMandi-Reviews-E4804261.htm",
+      "cities": [
+        "Delhi"
+      ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "2BRIDGE",
+    "category": "Indian Product Startup",
+    "sub_category": "Rural Tech",
+    "careers_url": "https://www.2bridge.one/careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "51Fin",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.51fin.in/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ABI Health",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://www.abi-health.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Agilitas",
+    "category": "Indian Product Startup",
+    "sub_category": "SportsTech",
+    "careers_url": "https://www.agilitas.in/life",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "altM",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.altm.bio/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Analytics Jobs",
+    "category": "Indian Product Startup",
+    "sub_category": "HR Tech",
+    "careers_url": "https://analyticsjobs.in/careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ANSR",
+    "category": "Indian Product Startup",
+    "sub_category": "HR Tech",
+    "careers_url": "https://www.ansr.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Arzooo.com",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://careers.arzooo.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Ather Energy",
+    "category": "Indian Product Startup",
+    "sub_category": "EVs",
+    "careers_url": "https://careers.atherenergy.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Automovill",
+    "category": "Indian Product Startup",
+    "sub_category": "AutoTech",
+    "careers_url": "https://www.automovill.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Ayna",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.getayna.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bambrew",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.bambrew.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bidso",
+    "category": "Indian Product Startup",
+    "sub_category": "B3B Marketplace",
+    "careers_url": "https://bidso.com/careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Biggies Burger",
+    "category": "Indian Product Startup",
+    "sub_category": "Food & Beverages",
+    "careers_url": "https://www.biggiesburger.com/join-us",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "BigHaat",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "https://www.bighaat.com/pages/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bimaplan",
+    "category": "Indian Product Startup",
+    "sub_category": "InsurTech",
+    "careers_url": "https://bimaplan.co/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bolt.Earth",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://bolt.earth/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "BUGWORKS Research",
+    "category": "Indian Product Startup",
+    "sub_category": "BioTech",
+    "careers_url": "https://www.bugworks.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Calibr",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://calibr.ai/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "CoreEL",
+    "category": "Indian Product Startup",
+    "sub_category": "Electronics",
+    "careers_url": "https://coreel.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Crux",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.ycombinator.com/companies/getcrux/jobs",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Cult.fit",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://www.cult.fit/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Daffodil Health",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://daffodilhealth.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Delta X Automotive",
+    "category": "Indian Product Startup",
+    "sub_category": "AutoTech",
+    "careers_url": "https://deltaxautomotive.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "DrinkPrime",
+    "category": "Indian Product Startup",
+    "sub_category": "WaterTech",
+    "careers_url": "www.drinkprime.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Eternz",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.eternz.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "EtherealX",
+    "category": "Indian Product Startup",
+    "sub_category": "AR/VR",
+    "careers_url": "https://www.etherealx.space/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Fabits",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.fabits.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Flash.co",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://us.flash.co/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Game Theory",
+    "category": "Indian Product Startup",
+    "sub_category": "Gaming",
+    "careers_url": "https://www.gametheory.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Garden of Joy",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "www.gardenofjoy.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "GO DESi",
+    "category": "Indian Product Startup",
+    "sub_category": "Food & Beverages",
+    "careers_url": "https://godesi.in/pages/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Humors Tech",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "humorstech.com",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "IBSFINtech",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.ibsfintech.com////join-ibsfintech//",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Innoviti",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://innoviti.com/jobs/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "InPrime Finserv",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://inprime.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "InSolare",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.insolare.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Jumbotail",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://www.jumbotail.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "kitchens@",
+    "category": "Indian Product Startup",
+    "sub_category": "FoodTech",
+    "careers_url": "https://www.loyalhospitality.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Krutrim",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.olakrutrim.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Kushal's",
+    "category": "Indian Product Startup",
+    "sub_category": "Retail",
+    "careers_url": "https://www.kushals.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "LetsTransport",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://hire.auzmor.com/letstransport/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Mave Health",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://www.mavehealth.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "MediBuddy",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://medibuddy.hire.trakstar.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Meesho",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://www.meesho.io/jobs",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "mirrAR",
+    "category": "Indian Product Startup",
+    "sub_category": "AR/VR",
+    "careers_url": "https://www.mirrar.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "MoveInSync",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://www.moveinsync.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "MyCaptain",
+    "category": "Indian Product Startup",
+    "sub_category": "EdTech",
+    "careers_url": "www.mycaptain.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Mynvax",
+    "category": "Indian Product Startup",
+    "sub_category": "BioTech",
+    "careers_url": "https://www.mynvax.com/careers.html",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Nexxio Technologies",
+    "category": "Indian Product Startup",
+    "sub_category": "IoT",
+    "careers_url": "https://www.nexxiotech.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Niqo Robotics",
+    "category": "Indian Product Startup",
+    "sub_category": "Robotics & Automation",
+    "careers_url": "https://www.niqorobotics.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "NiYO Solutions",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://goniyo.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "NoPo Nanotechnologies",
+    "category": "Indian Product Startup",
+    "sub_category": "NanoTech",
+    "careers_url": "https://noponano.zohorecruit.in/jobs/Careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ONO",
+    "category": "Indian Product Startup",
+    "sub_category": "PropTech",
+    "careers_url": "https://ono.co/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Oopar.Club",
+    "category": "Indian Product Startup",
+    "sub_category": "Lifestyle",
+    "careers_url": "https://oopar.club/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "OrbitAID Aerospace",
+    "category": "Indian Product Startup",
+    "sub_category": "SpaceTech",
+    "careers_url": "https://www.orbitaid.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Peping",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "https://peping.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Perfios Software Solutions",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.perfios.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "PlasmaGen Biosciences",
+    "category": "Indian Product Startup",
+    "sub_category": "BioTech",
+    "careers_url": "https://www.plasmagen.com/working",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Port",
+    "category": "Indian Product Startup",
+    "sub_category": "DevOps",
+    "careers_url": "https://port.numberless.tech/about-us#jobs",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Pulse Energy",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://pulseenergy.io/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Rapid",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://www.rapid.one/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Redinent",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://global.redinent.com/global/redinent-careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Redwing Labs",
+    "category": "Indian Product Startup",
+    "sub_category": "DronesTech",
+    "careers_url": "https://www.redwinglabs.in/contact-4",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "RentoMojo",
+    "category": "Indian Product Startup",
+    "sub_category": "Rental Services",
+    "careers_url": "https://www.rentomojo.com/about/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Rupeek",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.rupeek.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "SatSure",
+    "category": "Indian Product Startup",
+    "sub_category": "SpaceTech",
+    "careers_url": "https://www.satsure.co/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Scapia",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://www.scapia.cards/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Scrut Automation",
+    "category": "Indian Product Startup",
+    "sub_category": "RegTech",
+    "careers_url": "https://www.scrut.io/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "SecurWeave Research Labs",
+    "category": "Indian Product Startup",
+    "sub_category": "CyberSecurity",
+    "careers_url": "https://www.securweave.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Selfieera",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.selfieera.com/career.php",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Settl.",
+    "category": "Indian Product Startup",
+    "sub_category": "PropTech",
+    "careers_url": "https://thesettl.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Shadowfax",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://www.shadowfax.in/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "SLIQUE ROBOTICS INDIA",
+    "category": "Indian Product Startup",
+    "sub_category": "Robotics",
+    "careers_url": "slique.io",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Smarter Dharma",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.smarterdharma.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Snitch",
+    "category": "Indian Product Startup",
+    "sub_category": "Fashion",
+    "careers_url": "www.snitch.co.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Sprinto",
+    "category": "Indian Product Startup",
+    "sub_category": "RegTech",
+    "careers_url": "https://jobs.lever.co/Sprinto",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Stan",
+    "category": "Indian Product Startup",
+    "sub_category": "Social Media",
+    "careers_url": "https://getstan.app/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Supertails",
+    "category": "Indian Product Startup",
+    "sub_category": "PetTech",
+    "careers_url": "https://supertails.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "The Betel Leaf Co.",
+    "category": "Indian Product Startup",
+    "sub_category": "Food & Beverages",
+    "careers_url": "https://thebetelleafco.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Udaan",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://udaan.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Ultrahuman",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://ultrahumanapp.notion.site/Open-Positions-db87ddf4e0c94dc5a12a709736002745",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vaaree",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://vaaree.com/pages/career-opportunities",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vegrow",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "https://www.vegrow.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "vHub.ai",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://vhub.ai/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vidyut",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.vidyuttech.in/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vridhi Home Finance",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.vridhihomefinance.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "VRO Hospitality",
+    "category": "Indian Product Startup",
+    "sub_category": "Hospitality",
+    "careers_url": "https://vrohospitality.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Yenmo",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://yenmo.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Yulu",
+    "category": "Indian Product Startup",
+    "sub_category": "Mobility",
+    "careers_url": "https://www.yulu.bike/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ZestMoney",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.zestmoney.in/career",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "2BRIDGE",
+    "category": "Indian Product Startup",
+    "sub_category": "Rural Tech",
+    "careers_url": "https://www.2bridge.one/careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "50Fin",
+    "category": "Indian Product Startup",
+    "sub_category": "Finance",
+    "careers_url": "",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "51Fin",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.51fin.in/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ABI Health",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://www.abi-health.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Agilitas",
+    "category": "Indian Product Startup",
+    "sub_category": "SportsTech",
+    "careers_url": "https://www.agilitas.in/life",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "altM",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.altm.bio/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Analytics Jobs",
+    "category": "Indian Product Startup",
+    "sub_category": "HR Tech",
+    "careers_url": "https://analyticsjobs.in/careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ANSR",
+    "category": "Indian Product Startup",
+    "sub_category": "HR Tech",
+    "careers_url": "https://www.ansr.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Arzooo.com",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://careers.arzooo.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Ather Energy",
+    "category": "Indian Product Startup",
+    "sub_category": "EVs",
+    "careers_url": "https://careers.atherenergy.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Automovill",
+    "category": "Indian Product Startup",
+    "sub_category": "AutoTech",
+    "careers_url": "https://www.automovill.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Ayna",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.getayna.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bambrew",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.bambrew.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bidso",
+    "category": "Indian Product Startup",
+    "sub_category": "B3B Marketplace",
+    "careers_url": "https://bidso.com/careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Biggies Burger",
+    "category": "Indian Product Startup",
+    "sub_category": "Food & Beverages",
+    "careers_url": "https://www.biggiesburger.com/join-us",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "BigHaat",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "https://www.bighaat.com/pages/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bimaplan",
+    "category": "Indian Product Startup",
+    "sub_category": "InsurTech",
+    "careers_url": "https://bimaplan.co/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Bolt.Earth",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://bolt.earth/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "BUGWORKS Research",
+    "category": "Indian Product Startup",
+    "sub_category": "BioTech",
+    "careers_url": "https://www.bugworks.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Calibr",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://calibr.ai/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Cardiotrack",
+    "category": "Indian Product Startup",
+    "sub_category": "",
+    "careers_url": "",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "CoreEL",
+    "category": "Indian Product Startup",
+    "sub_category": "Electronics",
+    "careers_url": "https://coreel.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Crux",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.ycombinator.com/companies/getcrux/jobs",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Cult.fit",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://www.cult.fit/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Daffodil Health",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://daffodilhealth.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Delta X Automotive",
+    "category": "Indian Product Startup",
+    "sub_category": "AutoTech",
+    "careers_url": "https://deltaxautomotive.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "DrinkPrime",
+    "category": "Indian Product Startup",
+    "sub_category": "WaterTech",
+    "careers_url": "www.drinkprime.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Eternz",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.eternz.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "EtherealX",
+    "category": "Indian Product Startup",
+    "sub_category": "AR/VR",
+    "careers_url": "https://www.etherealx.space/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Fabits",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.fabits.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Flash.co",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://us.flash.co/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Game Theory",
+    "category": "Indian Product Startup",
+    "sub_category": "Gaming",
+    "careers_url": "https://www.gametheory.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Garden of Joy",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "www.gardenofjoy.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "GO DESi",
+    "category": "Indian Product Startup",
+    "sub_category": "Food & Beverages",
+    "careers_url": "https://godesi.in/pages/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Humors Tech",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "humorstech.com",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "iBus Networks & Infrastructure",
+    "category": "Indian Product Startup",
+    "sub_category": "",
+    "careers_url": "",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "IBSFINtech",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.ibsfintech.com////join-ibsfintech//",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Innoviti",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://innoviti.com/jobs/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "InPrime Finserv",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://inprime.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "InSolare",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.insolare.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Jumbotail",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://www.jumbotail.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "kitchens@",
+    "category": "Indian Product Startup",
+    "sub_category": "FoodTech",
+    "careers_url": "https://www.loyalhospitality.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Krutrim",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.olakrutrim.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Kushal's",
+    "category": "Indian Product Startup",
+    "sub_category": "Retail",
+    "careers_url": "https://www.kushals.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "LetsTransport",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://hire.auzmor.com/letstransport/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Mave Health",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://www.mavehealth.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "MediBuddy",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://medibuddy.hire.trakstar.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Meesho",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://www.meesho.io/jobs",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "mirrAR",
+    "category": "Indian Product Startup",
+    "sub_category": "AR/VR",
+    "careers_url": "https://www.mirrar.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "MoveInSync",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://www.moveinsync.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "MyCaptain",
+    "category": "Indian Product Startup",
+    "sub_category": "EdTech",
+    "careers_url": "www.mycaptain.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Mynvax",
+    "category": "Indian Product Startup",
+    "sub_category": "BioTech",
+    "careers_url": "https://www.mynvax.com/careers.html",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Nexxio Technologies",
+    "category": "Indian Product Startup",
+    "sub_category": "IoT",
+    "careers_url": "https://www.nexxiotech.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Niqo Robotics",
+    "category": "Indian Product Startup",
+    "sub_category": "Robotics & Automation",
+    "careers_url": "https://www.niqorobotics.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "NiYO Solutions",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://goniyo.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "NoPo Nanotechnologies",
+    "category": "Indian Product Startup",
+    "sub_category": "NanoTech",
+    "careers_url": "https://noponano.zohorecruit.in/jobs/Careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ONO",
+    "category": "Indian Product Startup",
+    "sub_category": "PropTech",
+    "careers_url": "https://ono.co/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Oopar.Club",
+    "category": "Indian Product Startup",
+    "sub_category": "Lifestyle",
+    "careers_url": "https://oopar.club/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "OrbitAID Aerospace",
+    "category": "Indian Product Startup",
+    "sub_category": "SpaceTech",
+    "careers_url": "https://www.orbitaid.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Peping",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "https://peping.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Perfios Software Solutions",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.perfios.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "PlasmaGen Biosciences",
+    "category": "Indian Product Startup",
+    "sub_category": "BioTech",
+    "careers_url": "https://www.plasmagen.com/working",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Port",
+    "category": "Indian Product Startup",
+    "sub_category": "DevOps",
+    "careers_url": "https://port.numberless.tech/about-us#jobs",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Pulse Energy",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://pulseenergy.io/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Rapid",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://www.rapid.one/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Redinent",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://global.redinent.com/global/redinent-careers/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Redwing Labs",
+    "category": "Indian Product Startup",
+    "sub_category": "DronesTech",
+    "careers_url": "https://www.redwinglabs.in/contact-4",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "RentoMojo",
+    "category": "Indian Product Startup",
+    "sub_category": "Rental Services",
+    "careers_url": "https://www.rentomojo.com/about/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Rupeek",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.rupeek.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Saggraha Management Services",
+    "category": "Indian Product Startup",
+    "sub_category": "Finance",
+    "careers_url": "",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "SatSure",
+    "category": "Indian Product Startup",
+    "sub_category": "SpaceTech",
+    "careers_url": "https://www.satsure.co/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Scapia",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://www.scapia.cards/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Scrut Automation",
+    "category": "Indian Product Startup",
+    "sub_category": "RegTech",
+    "careers_url": "https://www.scrut.io/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "SecurWeave Research Labs",
+    "category": "Indian Product Startup",
+    "sub_category": "CyberSecurity",
+    "careers_url": "https://www.securweave.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Selfieera",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://www.selfieera.com/career.php",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Settl.",
+    "category": "Indian Product Startup",
+    "sub_category": "PropTech",
+    "careers_url": "https://thesettl.com/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Shadowfax",
+    "category": "Indian Product Startup",
+    "sub_category": "Logistics",
+    "careers_url": "https://www.shadowfax.in/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "SLIQUE ROBOTICS INDIA",
+    "category": "Indian Product Startup",
+    "sub_category": "Robotics",
+    "careers_url": "slique.io",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Smarter Dharma",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.smarterdharma.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Snitch",
+    "category": "Indian Product Startup",
+    "sub_category": "Fashion",
+    "careers_url": "www.snitch.co.in",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Sprinto",
+    "category": "Indian Product Startup",
+    "sub_category": "RegTech",
+    "careers_url": "https://jobs.lever.co/Sprinto",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Stan",
+    "category": "Indian Product Startup",
+    "sub_category": "Social Media",
+    "careers_url": "https://getstan.app/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Supertails",
+    "category": "Indian Product Startup",
+    "sub_category": "PetTech",
+    "careers_url": "https://supertails.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "The Betel Leaf Co.",
+    "category": "Indian Product Startup",
+    "sub_category": "Food & Beverages",
+    "careers_url": "https://thebetelleafco.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Udaan",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://udaan.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Ultrahuman",
+    "category": "Indian Product Startup",
+    "sub_category": "HealthTech",
+    "careers_url": "https://ultrahumanapp.notion.site/Open-Positions-db87ddf4e0c94dc5a12a709736002745",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vaaree",
+    "category": "Indian Product Startup",
+    "sub_category": "E-commerce",
+    "careers_url": "https://vaaree.com/pages/career-opportunities",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vegrow",
+    "category": "Indian Product Startup",
+    "sub_category": "AgriTech",
+    "careers_url": "https://www.vegrow.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "vHub.ai",
+    "category": "Indian Product Startup",
+    "sub_category": "AI/ML",
+    "careers_url": "https://vhub.ai/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vidyut",
+    "category": "Indian Product Startup",
+    "sub_category": "CleanTech",
+    "careers_url": "https://www.vidyuttech.in/careers",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Vridhi Home Finance",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.vridhihomefinance.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "VRO Hospitality",
+    "category": "Indian Product Startup",
+    "sub_category": "Hospitality",
+    "careers_url": "https://vrohospitality.com/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Yenmo",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://yenmo.in/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "Yulu",
+    "category": "Indian Product Startup",
+    "sub_category": "Mobility",
+    "careers_url": "https://www.yulu.bike/",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  },
+  {
+    "name": "ZestMoney",
+    "category": "Indian Product Startup",
+    "sub_category": "FinTech",
+    "careers_url": "https://www.zestmoney.in/career",
+    "glassdoor_url": "",
+    "cities": ["Bangalore"]
+  }
+  ]
+}
