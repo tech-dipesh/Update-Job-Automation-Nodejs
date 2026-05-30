@@ -1,0 +1,25 @@
+{
+  "name": "india-job-scraper",
+  "version": "3.0.0",
+  "description": "Automated India tech job scraper — monitors 500+ career pages every 3 hours, emails new intern/SDE postings via Nodemailer",
+  "main": "scraper.js",
+  "scripts": {
+    "start":       "node scraper.js",
+    "dry-run":     "node scraper.js --dry-run",
+    "test-email":  "node scraper.js --test-email",
+    "reset":       "node scraper.js --reset",
+    "list":        "node scraper.js --list"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "dotenv":           "^16.4.5",
+    "node-html-parser": "^6.1.13",
+    "nodemailer":       "^6.9.13",
+    "puppeteer":        "^22.8.0"
+  },
+  "keywords": ["job-scraper", "india", "internship", "automation", "puppeteer"],
+  "author": "Dipesh Gautam <dipesh77gautam@gmail.com>",
+  "license": "MIT"
+}
