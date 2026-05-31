@@ -17,8 +17,7 @@
     "dotenv": "^16.6.1",
     "node-html-parser": "^6.1.13",
     "nodemailer": "^6.10.1",
-    "pupeteer": "^0.0.1",
-    "puppeteer": "^22.15.0"
+    "puppeteer": "^25.1.0"
   },
   "keywords": [
     "job-scraper",
