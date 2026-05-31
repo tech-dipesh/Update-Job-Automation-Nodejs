@@ -30,3 +30,7 @@ desktop.ini
 *.swo
 
 .env.example
+
+NUL
+
+
