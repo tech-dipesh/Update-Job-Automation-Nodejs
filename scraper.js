@@ -378,7 +378,6 @@ async function fetchWithPuppeteer(url) {
 
     const page = await browser.newPage();
 
-    // Stealth
     await page.evaluateOnNewDocument(STEALTH_SCRIPT);
     await page.setUserAgent(randUA());
     await page.setViewport({ width: randInt(1280, 1920), height: randInt(700, 1080) });
@@ -387,7 +386,6 @@ async function fetchWithPuppeteer(url) {
       "DNT": "1",
     });
 
-    // Block heavy resources to speed up
     await page.setRequestInterception(true);
     page.on("request", (req) => {
       if (
@@ -525,7 +523,7 @@ async function sendAlert(newJobs, dryRun = false) {
 
   try {
     const info = await transporter.sendMail({
-      from:    `"Job Alert Bot 🚀" <${GMAIL_USER}>`,
+      from:    `"Job Alert Bot" <${GMAIL_USER}>`,
       to:      ALERT_EMAIL,
       subject,
       text,
