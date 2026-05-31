@@ -1,0 +1,155 @@
+name:  India Job Scraper — Every 3 Hours
+
+on:
+  schedule:
+    # Every 3 hours (UTC) — converts to IST (UTC+5:30):
+    #   00:00 UTC = 05:30 IST  |  03:00 UTC = 08:30 IST
+    #   06:00 UTC = 11:30 IST  |  09:00 UTC = 14:30 IST
+    #   12:00 UTC = 17:30 IST  |  15:00 UTC = 20:30 IST
+    #   18:00 UTC = 23:30 IST  |  21:00 UTC = 02:30 IST
+    - cron: "0 0 * * *"
+    - cron: "0 3 * * *"
+    - cron: "0 6 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 12 * * *"
+    - cron: "0 15 * * *"
+    - cron: "0 18 * * *"
+    - cron: "0 21 * * *"
+
+  # Manual trigger from GitHub UI — useful for testing
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (scrape but no email)"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+      company:
+        description: "Only scrape this company name (blank = all)"
+        required: false
+        default: ""
+      reset:
+        description: "Reset seen_jobs.json before running"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+jobs:
+  scrape:
+    name: Scrape & Email Alert
+    runs-on: ubuntu-latest
+    timeout-minutes: 240   # 4 hrs max — 500 companies takes ~2-3 hrs
+
+    steps:
+      # ── 1. Checkout ─────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Node.js setup ─────────────────────────────────────────
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      # ── 3. Install dependencies ──────────────────────────────────
+      - name: Install npm dependencies
+        run: npm ci
+
+      # ── 4. Install Puppeteer browser ─────────────────────────────
+      - name: Install Chromium for Puppeteer
+        run: |
+          npx puppeteer browsers install chrome
+          # Install system dependencies for Chromium on Ubuntu
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq \
+            libnss3 libatk-bridge2.0-0 libdrm2 libxkbcommon0 \
+            libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
+            libgbm1 libasound2 libpango-1.0-0 libcairo2 \
+            fonts-liberation libappindicator3-1 xdg-utils \
+            --no-install-recommends
+
+      # ── 5. Restore seen_jobs.json from cache ─────────────────────
+      #    Key includes run-id so each run saves its own snapshot.
+      #    restore-keys falls back to any previous run's snapshot.
+      - name: Restore seen_jobs cache
+        id: cache-seen
+        uses: actions/cache@v4
+        with:
+          path: seen_jobs.json
+          key: seen-jobs-${{ github.ref_name }}-${{ github.run_id }}
+          restore-keys: |
+            seen-jobs-${{ github.ref_name }}-
+
+      # ── 6. Write .env from GitHub Secrets ────────────────────────
+      - name: Write .env
+        run: |
+          cat > .env << 'ENVEOF'
+          GMAIL_USER=${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD=${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_EMAIL=${{ secrets.ALERT_EMAIL }}
+          DELAY_MIN=1.5
+          DELAY_MAX=4
+          REQUEST_TIMEOUT=20000
+          PUPPETEER_TIMEOUT=30000
+          COMPANIES_FILE=india_tech_companies.json
+          SEEN_JOBS_FILE=seen_jobs.json
+          LOG_LEVEL=INFO
+          ENVEOF
+
+      # ── 7. Optional reset ────────────────────────────────────────
+      - name: Reset seen_jobs (if requested)
+        if: ${{ github.event.inputs.reset == 'true' }}
+        run: node scraper.js --reset
+
+      # ── 8. Run scraper ───────────────────────────────────────────
+      - name: Run scraper
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "${{ github.event.inputs.company }}" ]; then
+            ARGS="$ARGS --company ${{ github.event.inputs.company }}"
+          fi
+          node scraper.js $ARGS
+
+      # ── 9. Commit seen_jobs.json back to repo ────────────────────
+      #    This persists dedup state across runs without relying only on cache.
+      - name: Commit seen_jobs.json
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage seen_jobs and log
+          git add seen_jobs.json 2>/dev/null || true
+          git add scraper.log    2>/dev/null || true
+
+          # Only commit if something changed
+          if git diff --staged --quiet; then
+            echo "Nothing changed — no commit needed."
+          else
+            git commit -m "chore: update seen_jobs [$(date '+%d %b %Y %H:%M UTC')] [skip ci]"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 10. Upload run artifacts (always, even on failure) ───────
+      - name: Upload run artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-run-${{ github.run_number }}-${{ github.run_attempt }}
+          path: |
+            seen_jobs.json
+            scraper.log
+          retention-days: 14
