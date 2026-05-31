@@ -9,7 +9,6 @@ node_modules/
 npm-debug.log*
 .npm/
 .node_repl_history
-package-lock.json      # optional — remove this line if you use npm ci
 
 # ── Puppeteer cache ───────────────────────────────────────────────
 .cache/

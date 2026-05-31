@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Automated India tech job scraper — monitors 500+ career pages every 3 hours, emails new intern/SDE postings via Nodemailer",
   "main": "scraper.js",
+  "packageManager": "pnpm@9.0.0",
   "scripts": {
     "start":       "node scraper.js",
     "dry-run":     "node scraper.js --dry-run",
