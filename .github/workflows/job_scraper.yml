@@ -1,12 +1,10 @@
-name:  India Job Scraper — Every 3 Hours
+name: 🚀 India Job Scraper — Every 3 Hours
 
 on:
   schedule:
-    # Runs every 3 hours (UTC) → IST times (UTC+5:30):
-    # 00:00 UTC = 05:30 IST | 03:00 UTC = 08:30 IST
-    # 06:00 UTC = 11:30 IST | 09:00 UTC = 14:30 IST
-    # 12:00 UTC = 17:30 IST | 15:00 UTC = 20:30 IST
-    # 18:00 UTC = 23:30 IST | 21:00 UTC = 02:30 IST
+    # Every 3 hours UTC → IST (UTC+5:30):
+    # 00:00=05:30 | 03:00=08:30 | 06:00=11:30 | 09:00=14:30
+    # 12:00=17:30 | 15:00=20:30 | 18:00=23:30 | 21:00=02:30
     - cron: "0 0 * * *"
     - cron: "0 3 * * *"
     - cron: "0 6 * * *"
@@ -16,7 +14,6 @@ on:
     - cron: "0 18 * * *"
     - cron: "0 21 * * *"
 
-  # Manual trigger from GitHub Actions UI
   workflow_dispatch:
     inputs:
       dry_run:
@@ -24,26 +21,21 @@ on:
         required: false
         default: "false"
         type: choice
-        options:
-          - "false"
-          - "true"
+        options: ["false", "true"]
       company:
-        description: "Scrape only this company name (leave blank for all)"
+        description: "Scrape only this company (blank = all)"
         required: false
         default: ""
       reset:
-        description: "Reset seen_jobs.json before running (re-alerts everything)"
+        description: "Reset seen_jobs.json before running"
         required: false
         default: "false"
         type: choice
-        options:
-          - "false"
-          - "true"
+        options: ["false", "true"]
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   NODE_OPTIONS: "--max-old-space-size=4096"
-  PNPM_VERSION: "9"
 
 jobs:
   scrape:
@@ -52,49 +44,36 @@ jobs:
     timeout-minutes: 240
 
     steps:
-      # ── 1. Checkout ──────────────────────────────────────────────
+      # ── 1. Checkout (gets latest seen_jobs.json from repo) ──────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 2. Setup pnpm ────────────────────────────────────────────
+      # ── 2. Setup pnpm ───────────────────────────────────────────
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: ${{ env.PNPM_VERSION }}
+          version: 9
           run_install: false
 
-      # ── 3. Setup Node.js 24 ──────────────────────────────────────
+      # ── 3. Setup Node.js 24 ─────────────────────────────────────
       - name: Setup Node.js 24
         uses: actions/setup-node@v4
         with:
           node-version: "24"
           cache: "pnpm"
 
-      # ── 4. Get pnpm store path ───────────────────────────────────
-      - name: Get pnpm store path
-        id: pnpm-cache
-        run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_OUTPUT
-
-      # ── 5. Cache pnpm store ──────────────────────────────────────
-      - name: Cache pnpm store
-        uses: actions/cache@v4
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: pnpm-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            pnpm-${{ runner.os }}-
-
-      # ── 6. Install dependencies ──────────────────────────────────
+      # ── 4. Install dependencies ─────────────────────────────────
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      # ── 7. Install Chromium for Puppeteer ────────────────────────
+
+      # ── 5. Install Chromium for Puppeteer ───────────────────────
       - name: Install Chromium for Puppeteer
         run: |
           rm -rf /home/runner/.cache/puppeteer
-          pnpm exec puppeteer browsers install chrome
+          npx puppeteer browsers install chrome
           sudo apt-get update -qq
           sudo apt-get install -y -qq \
             libnss3 \
@@ -111,16 +90,7 @@ jobs:
             libcairo2 \
             --no-install-recommends
 
-      # ── 8. Restore seen_jobs.json ────────────────────────────────
-      - name: Restore seen_jobs cache
-        uses: actions/cache@v4
-        with:
-          path: seen_jobs.json
-          key: seen-jobs-${{ github.ref_name }}-${{ github.run_id }}
-          restore-keys: |
-            seen-jobs-${{ github.ref_name }}-
-
-      # ── 9. Write .env from GitHub Secrets ────────────────────────
+      # ── 6. Write .env from GitHub Secrets ───────────────────────
       - name: Write .env
         run: |
           cat > .env << 'ENVEOF'
@@ -136,12 +106,12 @@ jobs:
           LOG_LEVEL=INFO
           ENVEOF
 
-      # ── 10. Reset seen_jobs if requested ─────────────────────────
+      # ── 7. Reset seen_jobs if requested ─────────────────────────
       - name: Reset seen_jobs.json
         if: ${{ github.event.inputs.reset == 'true' }}
         run: node scraper.js --reset
 
-      # ── 11. Run scraper ──────────────────────────────────────────
+      # ── 8. Run scraper ──────────────────────────────────────────
       - name: Run scraper
         run: |
           ARGS=""
@@ -153,7 +123,10 @@ jobs:
           fi
           node scraper.js $ARGS
 
-      # ── 12. Commit seen_jobs.json back to repo ───────────────────
+      # ── 9. Commit seen_jobs.json back to repo ───────────────────
+      # IMPORTANT: No cache step for seen_jobs.json — we rely purely on
+      # git commit/checkout for persistence. A cache restore would
+      # overwrite the committed file and break cross-run dedup.
       - name: Commit seen_jobs.json
         if: always()
         run: |
@@ -172,7 +145,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 13. Upload run artifacts ─────────────────────────────────
+      # ── 10. Upload run artifacts ────────────────────────────────
       - name: Upload run artifacts
         if: always()
         uses: actions/upload-artifact@v4

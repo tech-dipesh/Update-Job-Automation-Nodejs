@@ -2761,16 +2761,6 @@
       ]
     },
     {
-      "name": "Razorpay Rize",
-      "category": "Indian Product Startup",
-      "sub_category": "Fintech",
-      "careers_url": "https://rize.razorpay.com/",
-      "glassdoor_url": "https://www.glassdoor.co.in/Reviews/Razorpay-Reviews-E1817580.htm",
-      "cities": [
-        "Bangalore"
-      ]
-    },
-    {
       "name": "Paytm Payments Bank",
       "category": "Indian Product Startup",
       "sub_category": "Banking",
@@ -6598,14 +6588,6 @@
     "name": "Monk Tech Labs",
     "category": "Indian Product Startup",
     "sub_category": "",
-    "careers_url": "",
-    "glassdoor_url": "",
-    "cities": ["Bangalore"]
-  },
-  {
-    "name": "Razorpay - Payment Gateway & Payment Solutions for India",
-    "category": "Indian Product Startup",
-    "sub_category": "FinTech",
     "careers_url": "",
     "glassdoor_url": "",
     "cities": ["Bangalore"]
