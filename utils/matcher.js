@@ -1,29 +1,26 @@
 "use strict";
 
 /**
- * matcher.js — Strict keyword filter for India Tech Job Scraper
+ * matcher.js — Strict 4-layer keyword filter for India Job Scraper
  *
  * WHAT WE WANT:
  *   - Software/tech intern roles (any stack)
  *   - New grad / fresher / SDE-1 / Associate SDE (software only)
- *   - India onsite roles only
+ *   - India onsite OR Remote (anywhere) roles
  *
- * FOUR-LAYER FILTERING:
- *   1. Title quality gate (length, ASCII ratio, not a nav link)
+ * FOUR LAYERS:
+ *   1. Title quality gate
  *   2. Must match a SOFTWARE/TECH intern or new-grad pattern
- *   3. Must NOT be a false positive (navigation, blog, error page, location text)
- *   4. Must NOT be a non-tech role (HR, Marketing, Finance, MBA, Civil, etc.)
+ *   3. Must NOT be a false positive (nav links, blog posts, non-India locations)
+ *   4. Must NOT be a non-tech role (HR, Marketing, Finance, MBA, Civil etc.)
  */
 
 // ─────────────────────────────────────────────────────────────────────────────
 // LAYER 1 — QUALITY GATE
 // ─────────────────────────────────────────────────────────────────────────────
 const MIN_LEN = 4;
-const MAX_LEN = 100;  // real job titles are short — "Fresher Jobs in Bangalore" is 26 chars but is navigation
+const MAX_LEN = 100;
 
-/**
- * Normalise whitespace and strip zero-width / control characters
- */
 function cleanTitle(raw) {
   return String(raw || "")
     .replace(/[\u0000-\u001F\u007F\u200B-\u200D\uFEFF]/g, " ")
@@ -41,8 +38,9 @@ function looksLikeJobTitle(title) {
   // Must contain at least one English word of 3+ characters
   if (!/[a-zA-Z]{3}/.test(title)) return false;
 
-  // Must NOT start with obvious navigation/icon/bullet characters
+  // Block obvious navigation/icon starts
   if (/^[→←↑↓►◄•·⚡🔥📌🚀💡#@]/.test(title)) return false;
+
   // Block numbered list items like "1. Junior Fullstack Developer" (Wysa nav)
   if (/^\d+\.\s/.test(title)) return false;
 
@@ -50,18 +48,19 @@ function looksLikeJobTitle(title) {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// LAYER 2 — SOFTWARE / TECH PATTERNS  (what we DO want)
-// All use \b word boundaries — "International" will NOT match \bintern\b
+// LAYER 2 — SOFTWARE / TECH PATTERNS (what we DO want)
+// All use \b — "International" will NOT match \bintern\b
 // ─────────────────────────────────────────────────────────────────────────────
 const TECH_PATTERNS = [
-  // ── Generic software intern ─────────────────────────────────────────────
+  // Generic software intern
   /\bsoftware\s+(?:engineering?\s+)?intern(?:ship)?\b/i,
   /\bsde[\s-]*intern(?:ship)?\b/i,
   /\bswe[\s-]*intern(?:ship)?\b/i,
   /\bengineer(?:ing)?\s+intern(?:ship)?\b/i,
   /\btech(?:nology)?\s+intern(?:ship)?\b/i,
+  /\bengineering\s+internship\b/i,
 
-  // ── Stack-specific interns ───────────────────────────────────────────────
+  // Stack-specific
   /\bfull[\s-]?stack\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
   /\bfront[\s-]?end\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
   /\bfrontend?\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
@@ -69,7 +68,7 @@ const TECH_PATTERNS = [
   /\bbackend?\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
   /\bweb\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
 
-  // ── Infrastructure / DevOps / SRE ────────────────────────────────────────
+  // Infrastructure / DevOps / SRE
   /\bdevops\s+(?:engineer\s+)?intern(?:ship)?\b/i,
   /\bdev[\s-]ops\s+(?:engineer\s+)?intern(?:ship)?\b/i,
   /\bsre\s+(?:engineer\s+)?intern(?:ship)?\b/i,
@@ -78,12 +77,12 @@ const TECH_PATTERNS = [
   /\bcloud\s+(?:engineer\s+)?intern(?:ship)?\b/i,
   /\binfra(?:structure)?\s+(?:engineer\s+)?intern(?:ship)?\b/i,
 
-  // ── Mobile ───────────────────────────────────────────────────────────────
+  // Mobile
   /\bmobile\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
   /\bandroid\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
   /\bios\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
 
-  // ── Data / ML / AI ───────────────────────────────────────────────────────
+  // Data / ML / AI
   /\bdata\s+(?:science|scientist|engineer(?:ing)?|analytics?)\s+intern(?:ship)?\b/i,
   /\bml\s+(?:engineer\s+|research\s+)?intern(?:ship)?\b/i,
   /\bmachine[\s-]learning\s+(?:engineer\s+)?intern(?:ship)?\b/i,
@@ -91,23 +90,21 @@ const TECH_PATTERNS = [
   /\bdeep[\s-]learning\s+(?:engineer\s+)?intern(?:ship)?\b/i,
   /\bresearch\s+(?:engineer\s+|scientist\s+)?intern(?:ship)?\b/i,
 
-  // ── Security / QA / Test ─────────────────────────────────────────────────
+  // Security / QA / Test
   /\bsecurity\s+(?:engineer\s+)?intern(?:ship)?\b/i,
   /\bcyber\s*security\s+(?:analyst\s+)?intern(?:ship)?\b/i,
   /\bqa\s+(?:engineer\s+|automation\s+)?intern(?:ship)?\b/i,
   /\btest(?:ing|er)?\s+(?:engineer\s+|automation\s+)?intern(?:ship)?\b/i,
   /\bautomation\s+(?:test\s+|engineer\s+)?intern(?:ship)?\b/i,
 
-  // ── Other tech roles ─────────────────────────────────────────────────────
+  // Other tech
   /\bembedded\s+(?:software\s+)?intern(?:ship)?\b/i,
   /\breact\s+(?:developer\s+|engineer\s+)?intern(?:ship)?\b/i,
   /\bnode(?:\.js)?\s+(?:developer\s+)?intern(?:ship)?\b/i,
   /\bpython\s+(?:developer\s+)?intern(?:ship)?\b/i,
   /\bjava\s+(?:developer\s+)?intern(?:ship)?\b/i,
 
-  // ── New grad / fresher / associate — SOFTWARE ONLY ───────────────────────
-  // Note: bare "fresher" is NOT included — too broad (matches "MBA Fresher", "HR Fresher" etc.)
-  // We only match "fresher" when paired with a tech keyword
+  // New grad / fresher / associate — SOFTWARE ONLY
   /\bsoftware\s+(?:engineer|developer)\s+fresher\b/i,
   /\bfresher\s+software\s+(?:engineer|developer)\b/i,
   /\btech\s+fresher\b/i,
@@ -123,52 +120,135 @@ const TECH_PATTERNS = [
   /\bjr\.?\s*(?:software\s+)?(?:engineer|developer)\b/i,
 
   /\bsde[\s-]?1\b/i,
-  /\bsde[\s-]?i\b/i,                              // SDE I (word boundary stops "SDE in")
+  /\bsde[\s-]?i\b/i,
   /\bassociate\s+sde\b/i,
   /\btrainee\s+(?:software\s+)?engineer\b/i,
-  /\bmember\s+of\s+technical\s+staff\b/i,         // MTS — valid for companies like 5C, Wysa
-
-  // ── Engineering internship (generic) ────────────────────────────────────
-  /\bengineering\s+internship\b/i,
+  /\bmember\s+of\s+technical\s+staff\b/i,
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
 // LAYER 3 — FALSE POSITIVE BLOCKLIST
-// Patterns that match Layer 2 but are NOT actual job postings
 // ─────────────────────────────────────────────────────────────────────────────
+
+// All US state abbreviations (catches "Austin, TX" "New York, NY" even when
+// concatenated without spaces like "Austin, TXNew York, NY")
+const US_STATE_CODES = [
+  "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA",
+  "HI","ID","IL","IN","IA","KS","KY","LA","ME","MD",
+  "MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
+  "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC",
+  "SD","TN","TX","UT","VT","VA","WA","WV","WI","WY","DC",
+];
+// Matches ", TX" or ",TX" or "TX" as a standalone word — even when
+// concatenated like "Austin, TXNew York" the regex catches ", TX" part
+const US_STATE_REGEX = new RegExp(
+  ",?\\s*\\b(" + US_STATE_CODES.join("|") + ")\\b",
+  "i"
+);
+
 const FALSE_POSITIVE_PATTERNS = [
-  // "International" / "Internal" — most common false positive
+  // "International" / "Internal"
   /\binternational\b/i,
   /\binternal\b/i,
 
-  // Navigation / category links scraped from Internshala, Naukri etc.
-  /fresher jobs (in|by|for)\b/i,         // "Fresher Jobs in Bangalore"
-  /\bview all fresher/i,                  // "View all fresher jobs"
-  /\bfresher jobs by/i,                   // "Fresher Jobs by Places"
+  // ── NON-INDIA COUNTRIES / CITIES ─────────────────────────────
+  // US cities
+  /\baustin\b/i,
+  /\bsan francisco\b/i,
+  /\bsunnyvale\b/i,
+  /\bmountain view\b/i,
+  /\bmenlo park\b/i,
+  /\bpalo alto\b(?!\s+networks)/i,  // allow "Palo Alto Networks" but block "Palo Alto, CA"
+  /\bseattle\b/i,
+  /\bchicago\b/i,
+  /\bboston\b/i,
+  /\blos angeles\b/i,
+  /\bsan jose\b/i,
+  /\bsan diego\b/i,
+  /\batlanta\b/i,
+  /\bdenver\b/i,
+  /\bportland\b/i,
+  /\bphoenix\b/i,
+  /\bnew york\b/i,
+  /\bwashington,?\s*dc\b/i,
+
+  // US state codes — catches "Austin, TX" "New York, NY" even concatenated
+  US_STATE_REGEX,
+
+  // Other non-India countries / regions
+  /\blondon\b/i,
+  /\bmanchester\b/i,
+  /\bbirmingham\b/i,
+  /\bedinburgh\b/i,
+  /\bsingapore\b/i,
+  /\bdubai\b/i,
+  /\babu dhabi\b/i,
+  /\btokyos?\b/i,
+  /\bbeijing\b/i,
+  /\bshanghai\b/i,
+  /\bsydney\b/i,
+  /\bmelbourne\b/i,
+  /\btoronto\b/i,
+  /\bvancouver\b/i,
+  /\bamsterdam\b/i,
+  /\bberlin\b/i,
+  /\bparis\b/i,
+  /\bwarsaw\b/i,
+  /\bkrakow\b/i,
+  /\bdublin\b/i,
+  /\bzurich\b/i,
+
+  // Country names
+  /\bunited states\b/i,
+  /\bunited kingdom\b/i,
+  /\busa\b/i,
+  /\bu\.s\.a\b/i,
+  /\bengland\b/i,
+  /\buk\b/i,
+  /\bcanada\b/i,
+  /\baustralia\b/i,
+  /\bgermany\b/i,
+  /\bnetherlands\b/i,
+  /\bpoland\b/i,
+  /\bireland\b/i,
+
+  // Remote US/UK (allow generic "remote" but block geo-qualified remote)
+  /\bremote[\s-]*(?:us|uk|usa|europe|eu|global)\b/i,
+  /\bus[\s-]*remote\b/i,
+  /\buk[\s-]*remote\b/i,
+
+  // ── NAVIGATION / CATEGORY LINKS ──────────────────────────────
+  /fresher jobs (?:in|by|for)\b/i,
+  /\bview all fresher/i,
+  /\bfresher jobs by/i,
   /\bjobs by places\b/i,
   /\bjobs by type\b/i,
-  /\bsearch internships\b/i,              // "Search Internships and New Grad Jobs" — Palo Alto button
+  /\bsearch internships\b/i,
   /\bsearch.*new grad\b/i,
-  /^search\b/i,                           // any title starting with "Search"
-  /^view\b/i,                             // any title starting with "View"
-  /^browse\b/i,                           // "Browse all jobs"
+  /^search\b/i,
+  /^view\b/i,
+  /^browse\b/i,
   /^explore\b/i,
-  /^find\b/i,                             // "Find internships"
+  /^find\b/i,
   /^apply\b/i,
+  /^click here/i,
+  /^see all/i,
+  /^load more/i,
+  /^show more/i,
 
-  // Location-only strings scraped as titles (Faircent style)
-  /^experience:\s*/i,                     // "Experience: Fresher Location: Gurgaon"
+  // ── PAGE TEXT SCRAPED AS TITLES ───────────────────────────────
+  /^experience:\s*/i,
   /^location:\s*/i,
   /location:\s*\w+/i,
   /experience:\s*fresher/i,
 
-  // Blog post / story sentences
+  // ── BLOG / STORY SENTENCES ────────────────────────────────────
   /from intern to full.?time/i,
   /transitioning from an? intern/i,
   /started.*as an intern/i,
   /joined.*as an intern/i,
   /my .+ internship/i,
-  /intern to .+(engineer|manager|seller|staff)/i,
+  /intern to .+(?:engineer|manager|seller|staff)/i,
   /what it.s like/i,
   /how .+ navigated/i,
   /day internship\b/i,
@@ -178,43 +258,17 @@ const FALSE_POSITIVE_PATTERNS = [
   /sabbatical transformed/i,
   /journey to becoming/i,
 
-  // Error / blocked pages
+  // ── ERROR / BLOCKED PAGES ─────────────────────────────────────
   /this page is blocked/i,
   /blocked under .+ policy/i,
   /must be a .+ employee/i,
   /blue.badge employee/i,
   /requires vpn/i,
   /stable internet connection/i,
-  /communication with applicants/i,
-
-  // Outside India — catch common non-India locations in title
-  // (we only want India onsite roles)
-  /\blondon\b/i,
-  /\baustin,?\s+tx\b/i,
-  /\bnew york\b/i,
-  /\bpalo alto,?\s+ca\b/i,
-  /\bseattle,?\s+wa\b/i,
-  /\bsan francisco\b/i,
-  /\bsunnyvale\b/i,
-  /\bmountain view\b/i,
-  /\bmenlo park\b/i,
-  /\bnew york,?\s+ny\b/i,
-  /\bwashington,?\s+dc\b/i,
-  /\bboston,?\s+ma\b/i,
-  /\bchicago,?\s+il\b/i,
-  /\bsingapore\b/i,
-  /\bdubai\b/i,
-  /\bremote\s*[-–]\s*us\b/i,
-  /\bremote\s*[-–]\s*uk\b/i,
-  /\bunited states\b/i,
-  /\bunited kingdom\b/i,
-  /\busa\b/i,
-  /\bu\.s\.a\b/i,
-  /\buk\b/i,                              // careful — "UK" alone could be too broad
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
-// LAYER 4 — NON-TECH ROLE EXCLUSIONS (SOFTWARE roles only)
+// LAYER 4 — NON-TECH ROLE EXCLUSIONS
 // ─────────────────────────────────────────────────────────────────────────────
 const NON_TECH_PATTERNS = [
   // HR / People
@@ -246,7 +300,7 @@ const NON_TECH_PATTERNS = [
   /\bcustomer\s+(?:success|support|service)\b.{0,20}intern/i,
   /\bpartnership\b.{0,20}intern/i,
 
-  // Finance / Accounting / Legal
+  // Finance / Legal
   /\bfinance\b.{0,20}intern/i,
   /\baccountan\w+\b.{0,20}intern/i,
   /\baudit\b.{0,20}intern/i,
@@ -256,7 +310,7 @@ const NON_TECH_PATTERNS = [
   /\bcompliance\b.{0,20}intern/i,
   /\bca\s+intern/i,
 
-  // Operations / Supply chain
+  // Operations
   /\boperations?\b.{0,20}intern/i,
   /\bsupply\s+chain\b.{0,20}intern/i,
   /\blogistics\b.{0,20}intern/i,
@@ -270,7 +324,7 @@ const NON_TECH_PATTERNS = [
   /\billustrat\w+\b.{0,20}intern/i,
   /\bcommunication\s+design\b.{0,20}intern/i,
 
-  // MBA / Civil / Medical / Other non-tech freshers
+  // Non-tech freshers
   /\bmba\s+fresher\b/i,
   /\bmba\b.{0,10}intern/i,
   /\bcivil\s+fresher\b/i,
@@ -290,16 +344,22 @@ const NON_TECH_PATTERNS = [
 // ─────────────────────────────────────────────────────────────────────────────
 
 /**
- * Normalise a title for dedup comparison.
- * Strips trailing location strings like "Bengaluru, India Apply Here"
+ * Normalise a title for dedup — strips trailing location noise so
+ * "SDE-I Bengaluru, India Apply Here" and "SDE-I" get the same key.
  */
 function normaliseForDedup(title) {
   return title
     .toLowerCase()
-    // Remove trailing location + apply noise
-    .replace(/\s+(bengaluru|bangalore|hyderabad|pune|chennai|mumbai|noida|gurgaon|delhi|kolkata|india)\b.*/i, "")
+    // Remove common India city + apply noise
+    .replace(
+      /\s+(?:bengaluru|bangalore|hyderabad|pune|chennai|mumbai|noida|gurgaon|gurugram|delhi|kolkata|india)\b.*/i,
+      ""
+    )
     .replace(/\s+apply here.*$/i, "")
-    .replace(/\s+apply\s*→.*$/i, "")
+    .replace(/\s+apply\s*[→>].*$/i, "")
+    // Remove em-dash / en-dash separators and what follows (location after dash)
+    .replace(/\s*[—–-]\s*(?:bionic|core|provider|forward|vision|computer).*/i, "")
+    // Remove all non-alphanumeric except spaces
     .replace(/[^a-z0-9\s]/g, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -326,7 +386,7 @@ function isTargetJob(rawTitle) {
     return { matched: false, reason: "no_tech_pattern" };
   }
 
-  // Layer 3 — must not be a false positive
+  // Layer 3 — must not be a false positive / non-India location
   const isFP = FALSE_POSITIVE_PATTERNS.some((p) => p.test(title));
   if (isFP) {
     return { matched: false, reason: "false_positive" };
@@ -343,15 +403,15 @@ function isTargetJob(rawTitle) {
 
 /**
  * Filter + deduplicate a list of { title, url } objects.
- * Dedup is done on normalised title so "SDE-I Bengaluru, India Apply Here"
- * and "SDE-I" are treated as the same job.
+ * Uses normalised title as the dedup key so location-suffixed duplicates
+ * (e.g. "SDE-I Bengaluru, India Apply Here" vs "SDE-I") are caught.
  */
 function filterJobs(jobs) {
-  const seenKeys  = new Set();
-  const result    = [];
+  const seenKeys = new Set();
+  const result   = [];
 
   for (const job of jobs) {
-    const title   = cleanTitle(job.title || "");
+    const title    = cleanTitle(job.title || "");
     const dedupKey = normaliseForDedup(title);
 
     if (!dedupKey || seenKeys.has(dedupKey)) continue;
@@ -367,30 +427,3 @@ function filterJobs(jobs) {
 }
 
 module.exports = { isTargetJob, filterJobs, cleanTitle, normaliseForDedup };
-/**
- * Filter a list of { title, url } objects, returning only real tech jobs.
- *
- * @param {Array<{title: string, url: string}>} jobs
- * @returns {Array<{title: string, url: string}>}
- */
-function filterJobs(jobs) {
-  const seen = new Set();
-  const result = [];
-
-  for (const job of jobs) {
-    const title = cleanTitle(job.title || "");
-    const key = title.toLowerCase();
-
-    if (seen.has(key)) continue;  // dedup within single-company results
-    seen.add(key);
-
-    const { matched } = isTargetJob(title);
-    if (matched) {
-      result.push({ ...job, title });
-    }
-  }
-
-  return result;
-}
-
-module.exports = { isTargetJob, filterJobs, cleanTitle };
