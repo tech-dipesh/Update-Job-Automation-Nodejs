@@ -1,0 +1,201 @@
+name: 🚀 India Job Scraper — Every 8 Hours
+
+on:
+  schedule:
+    # Every 8 hours UTC → IST (UTC+5:30):
+    # 00:00 UTC = 05:30 IST
+    # 08:00 UTC = 13:30 IST
+    # 16:00 UTC = 21:30 IST
+    - cron: "0 0 * * *"
+    - cron: "0 8 * * *"
+    - cron: "0 16 * * *"
+
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run — scrape but do NOT send email"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+      company:
+        description: "Only scrape this company name (blank = all)"
+        required: false
+        default: ""
+      reset:
+        description: "Reset seen_jobs.json before running"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  NODE_OPTIONS: "--max-old-space-size=4096"
+  PNPM_VERSION: "9"
+
+jobs:
+  scrape:
+    name: Scrape & Email Alert
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+
+    # Give workflow write access to commit seen_jobs.json back
+    permissions:
+      contents: write
+
+    steps:
+      # ── 1. Checkout ─────────────────────────────────────────────
+      # Always fetches latest seen_jobs.json committed by the previous run.
+      # We do NOT use cache for seen_jobs — cache would overwrite the
+      # committed file and break cross-run dedup.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 2. Setup pnpm ───────────────────────────────────────────
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: ${{ env.PNPM_VERSION }}
+          run_install: false
+
+      # ── 3. Setup Node.js 24 ─────────────────────────────────────
+      - name: Setup Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: "pnpm"
+
+      # ── 4. Install dependencies ─────────────────────────────────
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # ── 5. Install Chromium for Puppeteer ───────────────────────
+      - name: Install Chromium for Puppeteer
+        run: |
+          rm -rf /home/runner/.cache/puppeteer
+          npx puppeteer browsers install chrome
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq \
+            libnss3 \
+            libatk-bridge2.0-0 \
+            libdrm2 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2t64 \
+            libpango-1.0-0 \
+            libcairo2 \
+            --no-install-recommends
+
+      # ── 6. Write .env from GitHub Secrets ───────────────────────
+      - name: Write .env
+        run: |
+          cat > .env << 'ENVEOF'
+          GMAIL_USER=${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD=${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_EMAIL=${{ secrets.ALERT_EMAIL }}
+          DELAY_MIN=1.5
+          DELAY_MAX=4
+          REQUEST_TIMEOUT=20000
+          PUPPETEER_TIMEOUT=30000
+          COMPANIES_FILE=india_tech_companies.json
+          SEEN_JOBS_FILE=seen_jobs.json
+          LOG_LEVEL=INFO
+          ENVEOF
+
+      # ── 7. Show seen_jobs state before run ──────────────────────
+      - name: Show seen_jobs state (before)
+        run: |
+          if [ -f seen_jobs.json ]; then
+            echo "seen_jobs.json exists:"
+            node -e "
+              const d = JSON.parse(require('fs').readFileSync('seen_jobs.json','utf8'));
+              console.log('  total_seen:', d.total_seen || 0);
+              console.log('  last_run:', d.last_run || 'never');
+              console.log('  job keys:', Object.keys(d.jobs || {}).length);
+              console.log('  title keys:', Object.keys(d.titleKeys || {}).length);
+            "
+          else
+            echo "seen_jobs.json does NOT exist — will be created fresh."
+          fi
+
+      # ── 8. Reset seen_jobs if requested ─────────────────────────
+      - name: Reset seen_jobs.json
+        if: ${{ github.event.inputs.reset == 'true' }}
+        run: node scraper.js --reset
+
+      # ── 9. Run scraper ──────────────────────────────────────────
+      - name: Run scraper
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "${{ github.event.inputs.company }}" ]; then
+            ARGS="$ARGS --company '${{ github.event.inputs.company }}'"
+          fi
+          node scraper.js $ARGS
+
+      # ── 10. Show seen_jobs state after run ──────────────────────
+      - name: Show seen_jobs state (after)
+        if: always()
+        run: |
+          if [ -f seen_jobs.json ]; then
+            node -e "
+              const d = JSON.parse(require('fs').readFileSync('seen_jobs.json','utf8'));
+              console.log('  total_seen:', d.total_seen || 0);
+              console.log('  last_run:', d.last_run || 'never');
+              console.log('  job keys:', Object.keys(d.jobs || {}).length);
+              console.log('  title keys:', Object.keys(d.titleKeys || {}).length);
+            "
+          fi
+
+      # ── 11. Commit seen_jobs.json back to repo ──────────────────
+      # This is the ONLY persistence mechanism — no cache.
+      # The next run's git checkout will fetch this committed file.
+      - name: Commit seen_jobs.json
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Stage seen_jobs and log
+          git add -f seen_jobs.json 2>/dev/null || true
+          git add scraper.log       2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "✅  Nothing changed — no commit needed."
+          else
+            git commit -m "chore: update seen_jobs [$(date '+%d %b %Y %H:%M UTC')] [skip ci]"
+
+            # Retry push up to 3 times (handles rare race conditions)
+            for attempt in 1 2 3; do
+              if git push; then
+                echo "✅  Pushed seen_jobs.json on attempt $attempt"
+                break
+              else
+                echo "⚠️  Push failed attempt $attempt — pulling and retrying..."
+                git pull --rebase
+              fi
+            done
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ── 12. Upload artifacts ────────────────────────────────────
+      - name: Upload run artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-run-${{ github.run_number }}-${{ github.run_attempt }}
+          path: |
+            seen_jobs.json
+            scraper.log
+          retention-days: 14
